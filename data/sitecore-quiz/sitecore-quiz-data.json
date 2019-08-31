@@ -1,0 +1,56 @@
+{
+  "questions" : [
+    {
+    "id": "1",
+    "answerType": "radio",
+    "question": "When you are working with a Sitecore.Data.Items.Item object, which method should you use to get a list of all its children?",
+    "Options": {
+      "A1": ".GetChildren()",
+      "A2": "Axes.GetChild()",
+      "A3": "Axes.GetDescendants()",
+      "A4": "Database.GetChildren()"
+    },
+    "correctAnswer" : "A1",
+    "feedback": "The GetChildren() method returns a list of an item's children in the form of a ChildList collection."
+  },
+  {
+    "id": "2",
+    "answerType": "radio",
+    "question": "What is a Sitecore item?",
+    "Options": {
+      "A1": "A page the visitor views on the website",
+      "A2": "An entity storing the information used to find the content in the file system",
+      "A3": "The construct Sitecore uses to store data",
+      "A4": "A definition for the type of date that you want to store"
+    },
+    "correctAnswer" : "A3",
+    "feedback": "A Sitecore item is what Sitecore uses to store data."
+  },
+  {
+    "id": "3",
+    "answerType": "radio",
+    "question": "When you patch in changes to the Sitecore.config file, how can you control the order in which your changes are applied?",
+    "Options": {
+      "A1": "In App_Config/, create <order> entries in the Sitecore.Patch.config file",
+      "A2": "In App_Config/Include, use a naming convention and sub-folders for config files",
+      "A3": "In App_Config/Include/Project, add your config files",
+      "A4": "In Web.Config, manually insert the changes in order"
+    },
+    "correctAnswer" : "A2",
+    "feedback": "Recommended practice is to use the App_Config/Include folder, where folders and files are loaded alphabetically."
+  },
+  {
+    "id": "4",
+    "answerType": "radio",
+    "question": "Select the name of the Sitecore component-based architecture guidelines from the list.",
+    "Options": {
+      "A1": "Habitat",
+      "A2": "Adaptive",
+      "A3": "Bootstrap",
+      "A4": "Helix"
+    },
+    "correctAnswer" : "A4",
+    "feedback": "Helix is a set of overall design principles and conventions for Sitecore development.Throughout the Helix documentation you will find various examples from Habitat."
+  }
+  ]
+}
