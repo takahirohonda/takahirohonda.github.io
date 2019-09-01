@@ -40,7 +40,7 @@
       },
       {
         "id": "A3",
-        "option": "A definition for the type of date that you want to store"
+        "option": "The construct Sitecore uses to store data"
       },
       {
         "id": "A4",
@@ -65,7 +65,7 @@
       },
       {
         "id": "A3",
-        "option": "In Web.Config, manually insert the changes in order"
+        "option": "In App_Config/Include/Project, add your config files"
       },
       {
         "id": "A4",
