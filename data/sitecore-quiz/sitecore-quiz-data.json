@@ -1,7 +1,7 @@
 {
   "questions" : [
     {
-    "id": 1,
+    "id": 0,
     "answerType": "radio",
     "question": "When you are working with a Sitecore.Data.Items.Item object, which method should you use to get a list of all its children?",
     "answerOptions": [
@@ -26,7 +26,7 @@
     "feedback": "The GetChildren() method returns a list of an item's children in the form of a ChildList collection."
   },
   {
-    "id": 2,
+    "id": 1,
     "answerType": "radio",
     "question": "What is a Sitecore item?",
     "answerOptions": [
@@ -51,7 +51,7 @@
     "feedback": "A Sitecore item is what Sitecore uses to store data."
   },
   {
-    "id": 3,
+    "id": 2,
     "answerType": "radio",
     "question": "When you patch in changes to the Sitecore.config file, how can you control the order in which your changes are applied?",
     "answerOptions": [
@@ -76,7 +76,7 @@
     "feedback": "Recommended practice is to use the App_Config/Include folder, where folders and files are loaded alphabetically."
   },
   {
-    "id": 4,
+    "id": 3,
     "answerType": "radio",
     "question": "Select the name of the Sitecore component-based architecture guidelines from the list.",
     "answerOptions": [
