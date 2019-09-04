@@ -151,7 +151,7 @@
     "feedback": "The field name will be duplicated. This is not recommended practice."
   },
   {
-    "id": 5,
+    "id": 6,
     "answerType": "radio",
     "question": "What field type can I use with Rendering Parameters?",
     "answerOptions": [
@@ -176,7 +176,7 @@
     "feedback": "Rendering parameters can use all field types."
   },
   {
-    "id": 6,
+    "id": 7,
     "answerType": "radio",
     "question": "What does it do when you make an item bucketable?",
     "answerOptions": [
@@ -201,7 +201,7 @@
     "feedback": "Bucketable is the ability of an item or template to be stored or hidden in buckets or Item Buckets. All the Sitecore items are retrievable by the Sitecore search engine."
   },
   {
-    "id": 7,
+    "id": 8,
     "answerType": "radio",
     "question": "How can I open a bucketable item?",
     "answerOptions": [
@@ -226,7 +226,7 @@
     "feedback": "If you want to open a bucketable item that is placed in an item bucket, you must click the item bucket and use the Sitecore search functionality to locate and open the item."
   },
   {
-    "id": 8,
+    "id": 9,
     "answerType": "radio",
     "question": "When I made Template bucketable, the existing items are still not hidden. What should I do?",
     "answerOptions": [
@@ -251,7 +251,7 @@
     "feedback": "Once you sync the items, new items based on that template automatically work as buckets without any further action."
   },
   {
-    "id": 9,
+    "id": 10,
     "answerType": "radio",
     "question": "How does Sitecore support one of the CMS pillars, Presentation?",
     "answerOptions": [
@@ -276,7 +276,7 @@
     "feedback": "Data definition: Templates, Content: Items, Presentation: layouts and components."
   },
   {
-    "id": 10,
+    "id": 11,
     "answerType": "radio",
     "question": "What should you define in a template?",
     "answerOptions": [
@@ -301,7 +301,7 @@
     "feedback": "We definitely need fields, field sections and base template. Icon is highly recommended practice."
   },
   {
-    "id": 11,
+    "id": 12,
     "answerType": "radio",
     "question": "Which field type do I use to store formatted html",
     "answerOptions": [
@@ -326,7 +326,7 @@
     "feedback": "Rich text field can be used to store formatted html."
   },
   {
-    "id": 12,
+    "id": 13,
     "answerType": "radio",
     "question": "What is the name of the template all templates should inherit from?",
     "answerOptions": [
@@ -351,7 +351,7 @@
     "feedback": "It is called Standart Templates. It is a good idea to create _Base Template from Standard Template and inherit from it for extensibility."
   },
   {
-    "id": 13,
+    "id": 14,
     "answerType": "radio",
     "question": "Where do you define default and initial values?",
     "answerOptions": [
@@ -376,7 +376,7 @@
     "feedback": "Standard Values can define default and initial values."
   },
   {
-    "id": 14,
+    "id": 15,
     "answerType": "radio",
     "question": "Where should I set insert options as a best practice?",
     "answerOptions": [
@@ -401,7 +401,7 @@
     "feedback": "In the Standard Values, so they are applied as a default to newly created items."
   },
   {
-    "id": 15,
+    "id": 16,
     "answerType": "radio",
     "question": "How can I use placeholders inside of placeholders?",
     "answerOptions": [
@@ -426,7 +426,7 @@
     "feedback": "Cannot do it directly. You can use components inside of placeholders that define other placeholders"
   },
   {
-    "id": 16,
+    "id": 17,
     "answerType": "radio",
     "question": "What do you need to do to allow users to add and remove components from a placeholder using the Experience Editor?",
     "answerOptions": [
@@ -451,7 +451,7 @@
     "feedback": "Creating a Placeholder setting item for that placeholder will allow users to edit components."
   },
   {
-    "id": 17,
+    "id": 18,
     "answerType": "radio",
     "question": "How to fix Layout not found error page?",
     "answerOptions": [
@@ -476,7 +476,7 @@
     "feedback": "You will get this error when you request a page that has no layout defined in the presentation detail."
   },
   {
-    "id": 18,
+    "id": 19,
     "answerType": "radio",
     "question": "What tools can I use to install Sitecore?",
     "answerOptions": [
@@ -501,7 +501,7 @@
     "feedback": "Sitecore can be installd by the following methods: Manual or sip file, Scripts, Sitecore Rocks, SIM, EXE."
   },
   {
-    "id": 19,
+    "id": 20,
     "answerType": "radio",
     "question": "Where can Presentation Details be set?",
     "answerOptions": [
@@ -526,7 +526,7 @@
     "feedback": "Presentation detailed can be set by Experience Editor (Design Mode), Content Editor, Template Manager, Sitecore Rocks."
   },
   {
-    "id": 20,
+    "id": 21,
     "answerType": "radio",
     "question": "What are the 3 folders in the physical path of the content folder that hosts the Sitecore application?",
     "answerOptions": [
@@ -551,7 +551,7 @@
     "feedback": "Sitecore application requires Website, Data, Database folders."
   },
   {
-    "id": 21,
+    "id": 22,
     "answerType": "radio",
     "question": "What are the SIM installation features?",
     "answerOptions": [
@@ -576,7 +576,7 @@
     "feedback": ""
   },
   {
-    "id": 22,
+    "id": 23,
     "answerType": "radio",
     "question": "What are the SIM Import/Export features?",
     "answerOptions": [
@@ -601,7 +601,7 @@
     "feedback": ""
   },
   {
-    "id": 23,
+    "id": 24,
     "answerType": "radio",
     "question": "Where is the license located?",
     "answerOptions": [
@@ -626,7 +626,7 @@
     "feedback": "The default path for license is: wwwroot/website name/Data/license.xml"
   },
   {
-    "id": 24,
+    "id": 25,
     "answerType": "radio",
     "question": "Where does Master database publish items to?",
     "answerOptions": [
@@ -651,7 +651,7 @@
     "feedback": "Items are publised to the Core database from the Master database."
   },
   {
-    "id": 25,
+    "id": 26,
     "answerType": "radio",
     "question": "Publishing synchronizes what between master and web databases?",
     "answerOptions": [
@@ -676,7 +676,7 @@
     "feedback": "It does not update index. Note that deleted or unpublishable items are removed by publishing."
   },
   {
-    "id": 26,
+    "id": 27,
     "answerType": "radio",
     "question": "What are the types of publishing?",
     "answerOptions": [
@@ -701,7 +701,7 @@
     "feedback": "Exam tip: make sure to understand the difference between delayed, parallel and dedicated publishing types."
   },
   {
-    "id": 27,
+    "id": 28,
     "answerType": "radio",
     "question": "Which of the following are the foundation pillars of a Web Content Management System?",
     "answerOptions": [
@@ -726,7 +726,7 @@
     "feedback": "Data definition: Templates, Content: Items, Presentation: layouts and components."
   },
   {
-    "id": 28,
+    "id": 29,
     "answerType": "radio",
     "question": "What is a General Link field used for?",
     "answerOptions": [
@@ -751,7 +751,7 @@
     "feedback": "Exam tip: Make sure to understand what General Link field does."
   },
   {
-    "id": 29,
+    "id": 30,
     "answerType": "radio",
     "question": "To take advantage of Sitecore's integrated marketing & analytics capabilities, what do you need to implement?",
     "answerOptions": [
@@ -776,7 +776,7 @@
     "feedback": ""
   },
   {
-    "id": 30,
+    "id": 31,
     "answerType": "radio",
     "question": "How can you handle more than one input form on a controller rendering in Sitecore?",
     "answerOptions": [
@@ -801,7 +801,7 @@
     "feedback": ""
   },
   {
-    "id": 31,
+    "id": 32,
     "answerType": "radio",
     "question": "Why would you create the Visual Studio outside the webroot?",
     "answerOptions": [
@@ -826,7 +826,7 @@
     "feedback": ""
   },
   {
-    "id": 32,
+    "id": 33,
     "answerType": "radio",
     "question": "What is the purpose of a Field Editor?",
     "answerOptions": [
@@ -851,7 +851,7 @@
     "feedback": ""
   },
   {
-    "id": 33,
+    "id": 34,
     "answerType": "radio",
     "question": "Which of the following are reasons for using field types in Sitecore?",
     "answerOptions": [
@@ -876,7 +876,7 @@
     "feedback": ""
   },
   {
-    "id": 34,
+    "id": 35,
     "answerType": "radio",
     "question": "What is Sitecore's easy-to-use authoring tool and what functionality does it provide?",
     "answerOptions": [
@@ -901,7 +901,7 @@
     "feedback": ""
   },
   {
-    "id": 35,
+    "id": 36,
     "answerType": "radio",
     "question": "Which interface would an author use to see and edit items in a tree structure?",
     "answerOptions": [
@@ -926,7 +926,7 @@
     "feedback": ""
   },
   {
-    "id": 36,
+    "id": 37,
     "answerType": "radio",
     "question": "What does an unversioned field contain?",
     "answerOptions": [
@@ -951,7 +951,7 @@
     "feedback": "A shared field contains a single version of the data for all versions in all languages. An unversioned field contains one version of the data per langauage."
   },
   {
-    "id": 37,
+    "id": 38,
     "answerType": "radio",
     "question": "When would you use the DisableWebEdit parameter when rendering a field?",
     "answerOptions": [
@@ -976,7 +976,7 @@
     "feedback": ""
   },
   {
-    "id": 38,
+    "id": 39,
     "answerType": "radio",
     "question": "How do I display the content of a fied in code?",
     "answerOptions": [
@@ -1001,7 +1001,7 @@
     "feedback": ""
   },
   {
-    "id": 39,
+    "id": 40,
     "answerType": "radio",
     "question": "What can I use to translate fields and help texts in the Sitecore client?",
     "answerOptions": [
@@ -1026,7 +1026,7 @@
     "feedback": ""
   },
   {
-    "id": 40,
+    "id": 41,
     "answerType": "radio",
     "question": "When would you set languageEmbedding option to never?",
     "answerOptions": [
@@ -1051,7 +1051,7 @@
     "feedback": ""
   },
   {
-    "id": 41,
+    "id": 42,
     "answerType": "radio",
     "question": "How would you display the direct children of the Home item?",
     "answerOptions": [
@@ -1076,7 +1076,7 @@
     "feedback": "Sitecore.Context.Site.StartPath retrieves the Home item. GetChildren() will retrieve the direct children of the Home items."
   },
   {
-    "id": 42,
+    "id": 43,
     "answerType": "radio",
     "question": "What is the preferred way to modify the web.config",
     "answerOptions": [
@@ -1101,7 +1101,7 @@
     "feedback": ""
   },
   {
-    "id": 43,
+    "id": 44,
     "answerType": "radio",
     "question": "Config changes get added alphabetically by default. How can I change it?",
     "answerOptions": [
@@ -1126,7 +1126,7 @@
     "feedback": ""
   },
   {
-    "id": 44,
+    "id": 45,
     "answerType": "radio",
     "question": "What is the CMS parts of Sitecore?",
     "answerOptions": [
@@ -1151,7 +1151,7 @@
     "feedback": ""
   },
   {
-    "id": 45,
+    "id": 46,
     "answerType": "radio",
     "question": "What item setting needs to be specified for authors to be able to add content?",
     "answerOptions": [
@@ -1176,7 +1176,7 @@
     "feedback": ""
   },
   {
-    "id": 46,
+    "id": 47,
     "answerType": "radio",
     "question": "What do you need to create to enable Dynamic Binding?",
     "answerOptions": [
@@ -1201,7 +1201,7 @@
     "feedback": ""
   },
   {
-    "id": 47,
+    "id": 48,
     "answerType": "radio",
     "question": "What parts of the page are typically added using Static Binding?",
     "answerOptions": [
@@ -1226,7 +1226,7 @@
     "feedback": "It is a best practice to avoid static binding even for header and footer as the requimenets may change to make them editable."
   },
   {
-    "id": 48,
+    "id": 49,
     "answerType": "radio",
     "question": "What part of presentation details applies to all versions of an item?",
     "answerOptions": [
@@ -1251,7 +1251,7 @@
     "feedback": "Shared Layout is stored in _Renderings of presentation details while final layout is in _Final Renderings."
   },
   {
-    "id": 49,
+    "id": 50,
     "answerType": "radio",
     "question": "Why would you use dynamic placeholders",
     "answerOptions": [
@@ -1276,7 +1276,7 @@
     "feedback": ""
   },
   {
-    "id": 50,
+    "id": 51,
     "answerType": "radio",
     "question": "What does the item Resolver do?",
     "answerOptions": [
@@ -1301,7 +1301,7 @@
     "feedback": ""
   },
   {
-    "id": 51,
+    "id": 52,
     "answerType": "radio",
     "question": "How would you retrieve the URL of an item?",
     "answerOptions": [
@@ -1326,7 +1326,7 @@
     "feedback": "To retrieve items: Item item = Sitecore.Context.Item; var url = Sitecore.Links.LinkManager.GetItemUrl(item);"
   },
   {
-    "id": 52,
+    "id": 53,
     "answerType": "radio",
     "question": "Which search providers does Sitecore ship with by default?",
     "answerOptions": [
@@ -1351,7 +1351,7 @@
     "feedback": "Sitecore 9.0 and above ships with Azure Search in addition to Solr."
   },
   {
-    "id": 53,
+    "id": 54,
     "answerType": "radio",
     "question": "What happens when an item inside a bucket is not bucketable?",
     "answerOptions": [
@@ -1376,7 +1376,7 @@
     "feedback": "The item is not hidden. It appears as a normal child item"
   },
   {
-    "id": 54,
+    "id": 55,
     "answerType": "radio",
     "question": "Which method is not supported by Sitecore's implementation of IQueryable<T>?",
     "answerOptions": [
@@ -1401,7 +1401,7 @@
     "feedback": "Methods such as GroupBy, Aggregate and Sum are not supported"
   },
   {
-    "id": 55,
+    "id": 56,
     "answerType": "radio",
     "question": "What happens if a role denise an access right and another one allows it?",
     "answerOptions": [
@@ -1426,7 +1426,7 @@
     "feedback": "Deny always taks priority."
   },
   {
-    "id": 56,
+    "id": 57,
     "answerType": "radio",
     "question": "Where can I check the effective permission of an account?",
     "answerOptions": [
@@ -1451,7 +1451,7 @@
     "feedback": ""
   },
   {
-    "id": 57,
+    "id": 58,
     "answerType": "radio",
     "question": "What happens if an item version is not in a final workflow state?",
     "answerOptions": [
@@ -1476,7 +1476,7 @@
     "feedback": ""
   },
   {
-    "id": 58,
+    "id": 59,
     "answerType": "radio",
     "question": "How can you make it easier to communicate issues with Sitecore Support?",
     "answerOptions": [
@@ -1501,7 +1501,7 @@
     "feedback": ""
   },
   {
-    "id": 59,
+    "id": 60,
     "answerType": "radio",
     "question": "What is the best way to source control Sitecore items?",
     "answerOptions": [
