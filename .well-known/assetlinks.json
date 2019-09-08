@@ -2,7 +2,7 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "com.example.sitecorecertificationexamquiz",
+    "package_name": "com.mdhsitecorequiz.sitecorecertificationexamquiz",
     "sha256_cert_fingerprints":
     ["3C:01:C0:E9:96:FB:A0:AC:7A:B7:07:E6:21:12:BC:C0:1F:EC:9F:79:94:CA:1B:73:70:37:AA:E3:A0:5B:84:03"]
   }
