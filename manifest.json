@@ -43,7 +43,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/sitecore-exam-prep/index.html",
+  "start_url": "/index.html",
   "scope": ".",
   "display": "standalone",
   "orientation": "any",
