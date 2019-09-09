@@ -4,16 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>MyDatahack Github Page</title>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <title>Sitecore Exam Prep</title>
+  <link rel="shortcut icon" type="image/png" href="https://mydatahack.github.io/static/img/sitecore-quiz/sitecore-favicon/favicon.ico" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+  <link rel="manifest" href="manifest.json">
   <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-      google_ad_client: "ca-pub-7920242659710811",
-      enable_page_level_ads: true
-    });
-</script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker
+        .register('/sitecore-exam-prep/sw.js')
+        .then(function() { console.log("Service Worker Registered"); });
+    }
+    </script>
 </head>
 <body>
-  <h3>MyDatahack Github Page</h3>
-</body>
+    <div class="container">
+      <div class="row">
+        <div class="offset-md-2 col-md-8">
+          <div id="sc-quiz-root">
+          </div>
+        </div>
+      </div>
+    </div>
+<script type="text/javascript" src="default.js"></script></body>
 </html>
