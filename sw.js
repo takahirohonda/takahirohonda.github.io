@@ -8,8 +8,8 @@ self.addEventListener('install', function(e) {
         '/index.html',
         '/default.js',
         'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css',
-        'https://mydatahack.github.io/static/img/sitecore-logo.PNG',
-        'https://mydatahack.github.io/data/sitecore-quiz-data.json'
+        'https://mydatahack.github.io/static/img/sitecore-quiz/sitecore-logo.PNG',
+        'https://mydatahack.github.io/data/sitecore-quiz/sitecore-quiz-data.json'
       ]);
     })
   );
