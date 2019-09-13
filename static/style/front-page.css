@@ -1,13 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
+
 body {
-  background-color: #eebca7;
+  background-color: #F76C6C;
 }
 
+color {color: #F76C6C, #F8E9A1, #A8D0E6, #374785, #24305E}
 
 .header-container {
-  background: url('https://mydatahack.github.io/static/img/front-page/header-img.jpg');
-  width: 100%;
-  height: 600px;
-  object-fit: cover;
-  object-position: 0% 70%;
+  text-align: center;
  
+}
+
+.header-title{
+  font-family: 'Modak', cursive;
+  font-size: 80px;
+  margin-top: 30px;
+  color: white;  
+}
+
+.body-container {
+  background-color: #F8E9A1;
+  height: 2000px;
+}
+.portofolio-container {
+  background-color: #A8D0E6;
+  height: 600px;
+  z-index: 1;
 }
