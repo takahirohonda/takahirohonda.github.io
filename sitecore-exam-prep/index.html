@@ -12,13 +12,6 @@
   <link rel="manifest" href="manifest.json">
   <script>
 
-    window.addEventListener('DOMContentLoaded', () => {
-      document.querySelector('.container').addEventListener('click', function() {
-        document.documentElement.requestFullscreen();
-      });
-      setTimeout(function() {document.querySelector('.container').click();}, 10);
-    });
-
     if('serviceWorker' in navigator) {
       navigator.serviceWorker
         .register('/sitecore-exam-prep/sw.js')

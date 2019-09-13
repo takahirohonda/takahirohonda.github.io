@@ -7,6 +7,7 @@ self.addEventListener('install', function(e) {
       return cache.addAll([
         '/sitecore-exam-prep/index.html',
         '/sitecore-exam-prep/default.js',
+        '/sitecore-exam-prep/manifest.json',
         'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css',
         'https://mydatahack.github.io/static/img/sitecore-quiz/sitecore-logo.PNG',
         'https://mydatahack.github.io/data/sitecore-quiz/sitecore-quiz-data.json'
