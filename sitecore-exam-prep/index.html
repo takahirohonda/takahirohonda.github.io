@@ -13,10 +13,10 @@
   <script>
 
     window.addEventListener('DOMContentLoaded', () => {
-      document.querySelector('.container').addEventListener('click', () => {
+      document.querySelector('.container').addEventListener('click', function() {
         document.documentElement.requestFullscreen();
       });
-      setTimeout(() => {document.querySelector('.container').click();}, 10);
+      setTimeout(function() {document.querySelector('.container').click();}, 10);
     });
 
     if('serviceWorker' in navigator) {
