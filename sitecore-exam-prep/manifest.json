@@ -45,7 +45,7 @@
   ],
   "start_url": "/sitecore-exam-prep/index.html",
   "scope": ".",
-  "display": "standalone",
+  "display": "fullscreen",
   "orientation": "any",
   "background_color": "#fff",
   "theme_color": "#e73000",
