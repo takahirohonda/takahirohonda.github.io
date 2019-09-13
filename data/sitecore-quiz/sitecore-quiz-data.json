@@ -557,15 +557,15 @@
     "answerOptions": [
       {
         "id": "A1",
-        "option": "Install any version of Sitecore from a repository of installers, Install moludes and packages, Reinstall the same configuration."
+        "option": "Install any version of Sitecore from a repository of installers, Install modules and packages, Reinstall the same configuration."
       },
       {
         "id": "A2",
-        "option": "Install any version of Sitecore from a repository of installers, Install moludes and packages, Create a new configuration."
+        "option": "Install any version of Sitecore from a repository of installers, Install modules and packages, Create a new configuration."
       },
       {
         "id": "A3",
-        "option": "Install any version of Sitecore from a repository of installers, Install moludes and packages, Reinstall a different configuration."
+        "option": "Install any version of Sitecore from a repository of installers, Install modules and packages, Reinstall a different configuration."
       },
       {
         "id": "A4",
