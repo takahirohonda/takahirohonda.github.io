@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
   <link rel="manifest" href="manifest.json">
   <script>
+    document.documentElement.requestFullscreen();
     if('serviceWorker' in navigator) {
       navigator.serviceWorker
         .register('/sitecore-exam-prep/sw.js')
