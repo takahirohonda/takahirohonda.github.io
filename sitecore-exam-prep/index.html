@@ -11,14 +11,14 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
   <link rel="manifest" href="manifest.json">
   <script>
-    document.querySelector('container').addEventListener('click', () => {
-      document.documentElement.requestFullscreen();
-    });
 
     document.addEventlistener('DOMContentLoaded', () => {
+      document.querySelector('container').addEventListener('click', () => {
+        document.documentElement.requestFullscreen();
+      });
       document.querySelector('container').click();
     });
-    
+
     if('serviceWorker' in navigator) {
       navigator.serviceWorker
         .register('/sitecore-exam-prep/sw.js')
