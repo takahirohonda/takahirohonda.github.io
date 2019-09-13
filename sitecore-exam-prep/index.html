@@ -22,7 +22,7 @@
     if('serviceWorker' in navigator) {
       navigator.serviceWorker
         .register('/sitecore-exam-prep/sw.js')
-        .then(function() { console.log("Service Worker Registered"); });
+        .then(function() { console.log("Service Worker Registered"); document.querySelector('.container').click();});
     }
     </script>
 </head>
