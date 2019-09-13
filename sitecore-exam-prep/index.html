@@ -10,18 +10,11 @@
   <link rel="shortcut icon" type="image/png" href="https://mydatahack.github.io/static/img/sitecore-quiz/sitecore-favicon/favicon.ico" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
   <link rel="manifest" href="manifest.json">
-  <script>
 
-    // window.addEventListener('DOMContentLoaded', () => {
-    //   document.querySelector('.container').addEventListener('click', function() {
-    //     document.documentElement.requestFullscreen();
-    //   });
-    //   setTimeout(function() {document.querySelector('.container').click();}, 10);
-    // });
-    
+  <script>
     if('serviceWorker' in navigator) {
       navigator.serviceWorker
-        .register('/sitecore-exam-prep/sw.js')
+        .register('/sw.js')
         .then(function() { console.log("Service Worker Registered"); });
     }
     </script>
