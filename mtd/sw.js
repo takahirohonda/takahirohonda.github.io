@@ -1,11 +1,11 @@
 
 self.addEventListener('install', function(e) {
   e.waitUntil(
-    caches.open('scQuizMdh').then(function(cache) {
+    caches.open('mtdApp').then(function(cache) {
       return cache.addAll([
-        '/mtd/index.html',
-        '/mtd/default.js',
-        '/mtd/style/app.css'
+        '/index.html',
+        '/default.js',
+        '/style/app.css'
       ]);
     })
   );

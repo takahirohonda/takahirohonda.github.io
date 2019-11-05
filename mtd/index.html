@@ -6,8 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="Description" content="App to organise your life with to do list">
+  <meta name="theme-color" content="#F78888"/>
   <title>Mtd</title>
   <link rel="shortcut icon" type="image/png" href="img/mtd-favicon.ico" />
+  <link rel="apple-touch-icon" href="img/mtd-favicon.ico">
   <link rel="stylesheet" type="text/css" href="style/app.css">
   <link rel="manifest" href="manifest.json">
   <script>
@@ -15,7 +17,7 @@
       navigator.serviceWorker
         .register('/sw.js')
         .then(function() { 
-          console.log("Service Worker Registered"); 
+          // console.log("Service Worker Registered"); 
         });
     }
     </script>
