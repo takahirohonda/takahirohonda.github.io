@@ -48,7 +48,7 @@
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff",
-  "theme_color": "#F78888",
+  "theme_color": "#131313",
   "description": "Organise your life with to do list",
   "dir": "ltr",
   "lang": "en-US"
