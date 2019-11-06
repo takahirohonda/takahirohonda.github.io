@@ -4,7 +4,15 @@
     "namespace": "android_app",
     "package_name": "com.mdhsitecorequiz.sitecorecertificationexamquiz",
     "sha256_cert_fingerprints":
-    ["CA:60:1F:66:AA:15:42:3D:26:95:DB:7A:3C:9F:59:15:6C:76:32:C0:DF:9B:9D:EC:E3:09:8C:41:F0:E1:33:9A",
-    "ED:DF:21:77:EF:52:E4:6B:64:BB:2F:E8:56:17:44:C9:86:87:86:CA:08:E0:CE:C6:67:86:86:65:DF:0C:CF:39"]
+    ["CA:60:1F:66:AA:15:42:3D:26:95:DB:7A:3C:9F:59:15:6C:76:32:C0:DF:9B:9D:EC:E3:09:8C:41:F0:E1:33:9A"]
+  }
+}, 
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.mdhmytodo.mdhmytodoapp",
+    "sha256_cert_fingerprints":
+    ["ED:DF:21:77:EF:52:E4:6B:64:BB:2F:E8:56:17:44:C9:86:87:86:CA:08:E0:CE:C6:67:86:86:65:DF:0C:CF:39"]
   }
 }] 
