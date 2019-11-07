@@ -20,9 +20,19 @@
           // console.log("Service Worker Registered"); 
         });
     }
+
     </script>
 <link href="./style/app.css" rel="stylesheet"></head>
 <body>
   <div id="root"></div>
 <script type="text/javascript" src="default.js"></script></body>
+<script>
+  window.addEventListener("beforeinstallprompt", function(e) { 
+    // log the platforms provided as options in an install prompt 
+    console.log(e.platforms); // e.g., ["web", "android", "windows"] 
+    e.userChoice.then(function(choiceResult) { 
+      console.log(choiceResult.outcome); // either "accepted" or "dismissed"
+    }, handleError); 
+  });
+</script>
 </html>
