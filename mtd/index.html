@@ -29,7 +29,7 @@
 <script>
   window.addEventListener("beforeinstallprompt", function(e) { 
     deferredPrompt = e;
-    showInstallPromotion();
+    e.prompt();
   });
 </script>
 </html>
