@@ -26,7 +26,7 @@ self.addEventListener('install', function(e) {
  });
 
  self.addEventListener('activate', event => {
-  console.log('Activating new service worker...');
+  // console.log('Activating new service worker...');
 
   const cacheWhitelist = [staticCacheName];
 
@@ -35,7 +35,7 @@ self.addEventListener('install', function(e) {
       return Promise.all(
         cacheNames.map(cacheName => {
           if (cacheWhitelist.indexOf(cacheName) === -1) {
-            console.log('deleting old cache: ', cacheName)
+            // console.log('deleting old cache: ', cacheName)
             return caches.delete(cacheName);
           }
         })
