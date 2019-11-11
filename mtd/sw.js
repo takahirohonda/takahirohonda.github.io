@@ -1,4 +1,4 @@
-var staticCacheName = 'mtdApp-cache-v2'
+var staticCacheName = 'mtdApp-cache-v3'
 
 self.addEventListener('install', function(e) {
   e.waitUntil(
