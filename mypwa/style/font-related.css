@@ -1,0 +1,46 @@
+.header-super-bold {
+  font-size: 80px;
+  line-height: 1.05;
+  font-weight: 700;
+  letter-spacing: -.015em;
+  text-align: center;
+}
+
+.text-white {
+  color: white;
+}
+.article-headline {
+  font-size: 64px;
+  line-height: 1.08349;
+  font-weight: 600;
+  letter-spacing: -.003em;
+}
+.article-sub-headline {
+  font-size: 48px;
+  line-height: 1.16667;
+  font-weight: 600;
+  letter-spacing: .009em;
+}
+.article-paragraph {
+  font-size: 17px;
+  line-height: 1.47059;
+  font-weight: 400;
+  letter-spacing: -.022em;
+}
+
+.app-name-text {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 17px;
+}
+
+.app-desc-text {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 17px;
+}
+
+.app-name-text a,
+.app-desc-text a {
+  text-decoration: none
+}
