@@ -43,15 +43,24 @@ window.addEventListener('DOMContentLoaded', (e) => {
   const headerContainer = document.querySelector('.header-super-bold-container');
   if (!headerContainer.classList.contains('active')) {
     headerContainer.classList.add('active');
+  } else  {
+    headerContainer.classList.remove('active');
+    headerContainer.classList.add('active');
   }
 
   const topIcon = document.querySelector('.top-icon');
   if(!topIcon.classList.contains('active')) {
     topIcon.classList.add('active');
+  } else  {
+    topIcon.classList.remove('active');
+    topIcon.classList.add('active');
   }
 
   const appIconGroup = document.querySelector('.app-icon-group');
   if(!appIconGroup.classList.contains('active')) {
+    appIconGroup.classList.add('active');
+  } else  {
+    appIconGroup.classList.remove('active');
     appIconGroup.classList.add('active');
   }
 })
