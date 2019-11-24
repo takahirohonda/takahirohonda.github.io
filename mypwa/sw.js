@@ -8,7 +8,6 @@ self.addEventListener('install', function(e) {
         '/mypwa/search.html',
         '/mypwa/scripts/animation-helper.js',
         '/mypwa/scripts/sticky-header.js',
-        '/mypwa/default.js',
         'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css',
         '/mypwa/style/global.css',
         '/mypwa/style/font-related.css',

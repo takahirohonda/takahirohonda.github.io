@@ -22,6 +22,16 @@
   <link rel="stylesheet" type="text/css" href="style/buttons.css" />
   <link rel="manifest" href="manifest.json">
   <title>MyPWA | Home</title>
+  <script>
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker
+          .register('/mypwa/sw.js')
+          // .register('/sw.js')
+          .then(function() { 
+            console.log("Service Worker Registered"); 
+          });
+      }
+    </script>
 </head>
 
 <body class="rubik">
