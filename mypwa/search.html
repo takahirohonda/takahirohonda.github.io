@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="Description" content="PWA App Store">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style/global.css">
+  <link rel="stylesheet" type="text/css" href="style/font-related.css">
+  <link rel="stylesheet" type="text/css" href="style/nav-bars.css" />
+  <link rel="stylesheet" type="text/css" href="style/main.css">
+  <link rel="stylesheet" type="text/css" href="style/app-card.css" />
+  <link rel="stylesheet" type="text/css" href="style/buttons.css" />
+  <title>MyPWA | Search Apps</title>
+  <script>
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker
+          .register('/mypwa/sw.js')
+          // .register('/sw.js')
+          .then(function() { 
+            // console.log("Service Worker Registered"); 
+          });
+      }
+    </script>
+</head>
+
+<body>
+  <div class="nav-menu-bg"></div>
+  <nav class="top-nav-container-dark">
+    <div class="container nav-bar-column">
+      <div class="nav-logo-title">
+        <a href="index.html" class="text-white">MyPWA</a>
+      </div>
+      <!-- Nav burger -->
+      <div class="nav-burger-container navbar-toggle">
+        <div class="nav-burger"></div>
+      </div>
+      <!-- Nav Content -->
+      <div class="nav-bar-right">
+        <div class="nav-link-container">
+          <a class="nav-item text-white" href="index.html">Overview</a>
+          <a class="nav-item text-white" href="search.html">Search</a>
+          <a class="nav-item text-white" href="register.html">Register</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <form class="search-form">
+        <div class="search-select-input-container">
+          <select class="search-select">
+            <option value="default">Select App Type</option>
+            <option value="application">Application</option>
+            <option value="game">Game</option>
+          </select>
+          </select>
+          <select class="search-select">
+            <option value="default">Select categories</option>
+            <option value="art-design">Art & Design</option>
+            <option value="auto-vehicles">Auto & Vehicles</option>
+            <option value="books-reference">Books & Reference</option>
+            <option value="business">Business</option>
+            <option value="comics">Comics</option>
+          </select>
+        </div>
+        <div class="search-input-container">
+          <input type="text" class="search-input-field" id="search-top" name="search-top"
+            placeholder="Search for apps & games">
+          <button type="button" class="search-btn"><img class="search-icon" src="img/search-icon.svg" /></button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- search results -->
+  <div class="container p-0">
+    <div class="app-store-title-container">
+      <div class="app-store-title">
+        App Store -
+        <span class="search-result-title">Search Reuslts</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- App Item 1-->
+  <div class="container p-0">
+    <div class="app-item-container">
+      <div class="app-icon-search-result-container">
+        <img class="app-icon-search-result" src="https://mydatahack.github.io/mtd/img/icons/icon-128x128.png"
+          alt="mtd-icon" />
+      </div>
+      <div class="search-result-right-container d-flex justify-content-between">
+        <div class="search-result-main-container">
+          <div class="search-result-app-title">
+            My to do app
+          </div>
+          <div class="search-result-app-sub-title">
+            Organise your life with to do list
+          </div>
+          <a class="download-now-link">
+            <div class="download-now-text">
+              <a href="https://mydatahack.github.io/mtd/" target="_blank">Download Now</a>
+            </div>
+          </a>
+          <div class="search-result-rating-no">
+            28 people rated it
+          </div>
+
+          <div class="search-result-rating">
+            <span class="rating-star rating-star-base">
+              <span class="rating-star-filled rating-star-3-5"></span>
+            </span>
+          </div>
+          <div class="search-result-free-text">
+            Free
+          </div>
+        </div>
+        <div class="search-result-rate-container">
+          <button type="button" class="rate-app-btn cta-md">Rate this app</button>
+          <button type="button" class="see-review-btn cta-md">See reviews</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- App Item 2-->
+  <div class="between-app-items"></div>
+  <div class="container p-0">
+    <div class="app-item-container">
+      <div class="app-icon-search-result-container">
+        <img class="app-icon-search-result"
+          src="https://mydatahack.github.io/sitecore-exam-prep/img/icons/icon-128x128.png" alt="mtd-icon" />
+
+      </div>
+      <div class="search-result-right-container d-flex justify-content-between">
+        <div class="search-result-main-container">
+          <div class="search-result-app-title">
+            Sitecore Certification Exam Prep Quiz
+          </div>
+          <div class="search-result-app-sub-title">
+            Sitecore Certified Platform Associate Developer Exam Prep Quiz
+          </div>
+          <a class="download-now-link">
+            <div class="download-now-text">
+              <a href="https://mydatahack.github.io/sitecore-exam-prep" target="_blank">Download Now</a>
+            </div>
+          </a>
+          <div class="search-result-rating-no">
+            28 people rated it
+          </div>
+
+          <div class="search-result-rating">
+            <span class="rating-star rating-star-base">
+              <span class="rating-star-filled rating-star-3-5"></span>
+            </span>
+          </div>
+          <div class="search-result-free-text">
+            Free
+          </div>
+        </div>
+        <div class="search-result-rate-container">
+          <button type="button" class="rate-app-btn cta-md">Rate this app</button>
+          <button type="button" class="see-review-btn cta-md">See reviews</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- App Item 3-->
+  <div class="between-app-items"></div>
+  <div class="container p-0">
+    <div class="app-item-container">
+      <div class="app-icon-search-result-container">
+        <img class="app-icon-search-result" src="https://opposites.co/android-chrome-192x192.png" alt="mtd-icon" />
+
+      </div>
+      <div class="search-result-right-container d-flex justify-content-between">
+        <div class="search-result-main-container">
+          <div class="search-result-app-title">
+            Opposites Game
+          </div>
+          <div class="search-result-app-sub-title">
+            Opposites Game
+          </div>
+          <a class="download-now-link">
+            <div class="download-now-text">
+              <a href="https://opposites.co/" target="_blank">Download Now</a>
+            </div>
+          </a>
+          <div class="search-result-rating-no">
+            28 people rated it
+          </div>
+
+          <div class="search-result-rating">
+            <span class="rating-star rating-star-base">
+              <span class="rating-star-filled rating-star-3-5"></span>
+            </span>
+          </div>
+          <div class="search-result-free-text">
+            Free
+          </div>
+        </div>
+        <div class="search-result-rate-container">
+          <button type="button" class="rate-app-btn cta-md">Rate this app</button>
+          <button type="button" class="see-review-btn cta-md">See reviews</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- App Item 4-->
+  <div class="between-app-items"></div>
+  <div class="container p-0">
+    <div class="app-item-container">
+      <div class="app-icon-search-result-container">
+        <img class="app-icon-search-result" src="https://app.starbucks.com/weblx/images/icons/pwa-icon-192.png"
+          alt="mtd-icon" />
+
+      </div>
+      <div class="search-result-right-container d-flex justify-content-between">
+        <div class="search-result-main-container">
+          <div class="search-result-app-title">
+            Starbucks
+          </div>
+          <div class="search-result-app-sub-title">
+            Starbucks
+          </div>
+          <a class="download-now-link">
+            <div class="download-now-text">
+              <a href="https://app.starbucks.com/" target="_blank">Download Now</a>
+            </div>
+          </a>
+          <div class="search-result-rating-no">
+            28 people rated it
+          </div>
+
+          <div class="search-result-rating">
+            <span class="rating-star rating-star-base">
+              <span class="rating-star-filled rating-star-3-5"></span>
+            </span>
+          </div>
+          <div class="search-result-free-text">
+            Free
+          </div>
+        </div>
+        <div class="search-result-rate-container">
+          <button type="button" class="rate-app-btn cta-md">Rate this app</button>
+          <button type="button" class="see-review-btn cta-md">See reviews</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- App Item 5-->
+  <div class="between-app-items"></div>
+  <div class="container p-0">
+    <div class="app-item-container">
+      <div class="app-icon-search-result-container">
+        <img class="app-icon-search-result" src="https://tinder.com/static/android-chrome-192x192.png" alt="mtd-icon" />
+
+      </div>
+      <div class="search-result-right-container d-flex justify-content-between">
+        <div class="search-result-main-container">
+          <div class="search-result-app-title">
+            Tinder
+          </div>
+          <div class="search-result-app-sub-title">
+            With 20 billion matches to date, Tinder is the world’s most popular app for meeting new people.
+          </div>
+          <a class="download-now-link">
+            <div class="download-now-text">
+              <a href="https://tinder.com" target="_blank">Download Now</a>
+            </div>
+          </a>
+          <div class="search-result-rating-no">
+            28 people rated it
+          </div>
+
+          <div class="search-result-rating">
+            <span class="rating-star rating-star-base">
+              <span class="rating-star-filled rating-star-3-5"></span>
+            </span>
+          </div>
+          <div class="search-result-free-text">
+            Free
+          </div>
+        </div>
+        <div class="search-result-rate-container">
+          <button type="button" class="rate-app-btn cta-md">Rate this app</button>
+          <button type="button" class="see-review-btn cta-md">See reviews</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- App Item 6-->
+  <div class="between-app-items"></div>
+  <div class="container p-0">
+    <div class="app-item-container">
+      <div class="app-icon-search-result-container">
+        <img class="app-icon-search-result" src="https://www.olx.in/logo/olx-192x192.png" alt="mtd-icon" />
+
+      </div>
+      <div class="search-result-right-container d-flex justify-content-between">
+        <div class="search-result-main-container">
+          <div class="search-result-app-title">
+            OLX Lite
+          </div>
+          <div class="search-result-app-sub-title">
+            OLX Lite
+          </div>
+          <a class="download-now-link">
+            <div class="download-now-text">
+              <a href="https://www.olx.in/?install=true" target="_blank">Download Now</a>
+            </div>
+          </a>
+          <div class="search-result-rating-no">
+            28 people rated it
+          </div>
+
+          <div class="search-result-rating">
+            <span class="rating-star rating-star-base">
+              <span class="rating-star-filled rating-star-3-5"></span>
+            </span>
+          </div>
+          <div class="search-result-free-text">
+            Free
+          </div>
+        </div>
+        <div class="search-result-rate-container">
+          <button type="button" class="rate-app-btn cta-md">Rate this app</button>
+          <button type="button" class="see-review-btn cta-md">See reviews</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- App Item 7 -->
+  <div class="between-app-items"></div>
+  <div class="container p-0">
+    <div class="app-item-container">
+      <div class="app-icon-search-result-container">
+        <img class="app-icon-search-result" src="https://www.trivago.com.au/favicon_144x144.png?" alt="mtd-icon" />
+
+      </div>
+      <div class="search-result-right-container d-flex justify-content-between">
+        <div class="search-result-main-container">
+          <div class="search-result-app-title">
+            Trivago
+          </div>
+          <div class="search-result-app-sub-title">
+            Trivago
+          </div>
+          <a class="download-now-link">
+            <div class="download-now-text">
+              <a href="https://www.trivago.com.au/" target="_blank">Download Now</a>
+            </div>
+          </a>
+          <div class="search-result-rating-no">
+            28 people rated it
+          </div>
+
+          <div class="search-result-rating">
+            <span class="rating-star rating-star-base">
+              <span class="rating-star-filled rating-star-3-5"></span>
+            </span>
+          </div>
+          <div class="search-result-free-text">
+            Free
+          </div>
+        </div>
+        <div class="search-result-rate-container">
+          <button type="button" class="rate-app-btn cta-md">Rate this app</button>
+          <button type="button" class="see-review-btn cta-md">See reviews</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- App Item 8 -->
+  <div class="between-app-items"></div>
+  <div class="container p-0">
+    <div class="app-item-container">
+      <div class="app-icon-search-result-container">
+        <img class="app-icon-search-result" src="https://deanhume.github.io/beer/images/beer-icon-144.png"
+          alt="mtd-icon" />
+
+      </div>
+      <div class="search-result-right-container d-flex justify-content-between">
+        <div class="search-result-main-container">
+          <div class="search-result-app-title">
+            Progressive Beer
+          </div>
+          <div class="search-result-app-sub-title">
+            Progressive Beer
+          </div>
+          <a class="download-now-link">
+            <div class="download-now-text">
+              <a href="https://deanhume.github.io/beer/" target="_blank">Download Now</a>
+            </div>
+          </a>
+          <div class="search-result-rating-no">
+            28 people rated it
+          </div>
+
+          <div class="search-result-rating">
+            <span class="rating-star rating-star-base">
+              <span class="rating-star-filled rating-star-3-5"></span>
+            </span>
+          </div>
+          <div class="search-result-free-text">
+            Free
+          </div>
+        </div>
+        <div class="search-result-rate-container">
+          <button type="button" class="rate-app-btn cta-md">Rate this app</button>
+          <button type="button" class="see-review-btn cta-md">See reviews</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts/animation-helper.js"></script>
+
+</body>
+
+</html>

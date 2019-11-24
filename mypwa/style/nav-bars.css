@@ -1,0 +1,359 @@
+/* nav */
+
+
+.top-nav-container {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 52px;
+  z-index: 20;
+}
+
+.top-nav-container.active {
+  backdrop-filter: saturate(180%) blur(20px);
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: background-color 0.3s cubic-bezier(0.28, 0.11, 0.32, 1);
+  transition-property: background-color, backdrop-filter;
+  /* transition-property: backdrop-filter;
+  animation-name: change-nav-background;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.28, 0.11, 0.32, 1); */
+}
+.top-nav-container.active:after {
+  background-color: rgba(29,29,31,0.2);
+  margin-left: 0;
+  left: 0;
+  width: 100%;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  height: 1px;
+  z-index: 1;
+}
+
+/*animation for nav bar*/
+
+/* @keyframes change-nav-background {
+  0% {
+
+  }
+  98% {
+    background-color: rgba(255,255,255,0.9);
+  }
+  100% {
+    background-color: rgba(255,255,255,0.4);
+  }
+} */
+
+.nav-bar-column {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+.nav-logo-title {
+  font-size: 18px;
+  line-height: 1.14286;
+  font-weight: 600;
+  letter-spacing: .011em;
+  cursor: default;
+  display: flex;
+  align-items: center;
+  height: 52px;
+  font-family: 'Fredoka One',cursive;
+  z-index: 10;
+}
+
+.nav-logo-title a,
+.nav-link-container a {
+  text-decoration: none;
+  color: #1d1d1f;
+}
+
+.nav-bar-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-link-item {
+  margin: 10px;
+  font-size: 12px;
+}
+
+/* Find page */
+/* basic nav */
+.top-nav-container-dark {
+  width: 100%;
+  height: 52px;
+  background-color: #303030;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-item {
+  font: 14px;
+  margin: 20px;
+}
+
+
+/* nav burger */
+.nav-burger-container {
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
+
+.nav-burger {
+  border: 1px solid white;
+  width: 22px;
+  position: relative;
+  border-radius: 1px;
+}
+
+.nav-burger:before {
+  content: '';
+  position: absolute;
+  border: 1px solid white;
+  width: 22px;
+  top: -7px;
+  left: -1px;
+}
+
+.nav-burger:after {
+  content: '';
+  position: absolute;
+  border: 1px solid white;
+  width: 22px;
+  top: 5px;
+  left: -1px;
+}
+
+/* hide nav burger when with is bigger than 768px */
+@media only screen and (min-width: 769px) {
+  .nav-burger-container {
+    display: none;
+  } 
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-bar-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #303030;
+    z-index: 5;
+    width: 100%;
+    justify-content: flex-start;
+    height: 0px;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.28, 0.11, 0.32, 1);
+  }
+
+  .nav-link-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    align-items: flex-start;
+    width: 100%;
+    margin-right: 50px;
+  }
+
+  .nav-bar-right.active {
+   background: #000;
+    height: 300px;
+    overflow: visible;
+  }
+
+  .nav-item {
+    opacity: 0;
+    width: 100%;
+    display: flex;
+    position: relative 
+  }
+  .nav-item:after {
+    content: "";
+    position: absolute;
+    top: 32px;
+    left: 0;
+    height: 1px;
+    background: #6f6f6f;
+    width: 100%;
+  }
+  .nav-bar-right.active .nav-item {
+    opacity: 1;
+    transition: all 0.1s cubic-bezier(0.28, 0.11, 0.32, 1) 0.2s;
+  }
+}
+
+/* nav animation */
+
+/* nav burger animation */
+@keyframes moveDown {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+    
+  }
+  30% {
+    transform: translateY(7px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(7px) rotate(-90deg);
+    transform-origin: center;
+    opacity:1;
+  }
+}
+
+@keyframes moveDown-reverse {
+  0% {
+    transform: translateY(7px) rotate(-90deg);
+    transform-origin: center;
+    opacity:1;
+  }
+  30% {
+    transform: translateY(7px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0);
+    opacity: 1; 
+  }
+  30% {
+    transform: translateY(-5x);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(-5px);
+    opacity: 0;
+  }
+}
+
+@keyframes moveUp-reverse {
+ 
+  0% {
+    transform: translateY(-5px);
+    opacity: 0;
+  }
+  30% {
+    transform: translateY(-5px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1; 
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: translateY(0); 
+  }
+  30% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: rotate(45deg)
+  }
+}
+
+@keyframes rotate-reverse {
+  
+  0% {
+    transform: rotate(45deg)
+  }
+  30% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0); 
+  }
+}
+
+.nav-burger.animate:before {
+  animation: moveDown;
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0.52, 0.14, 0.42, 0.89);
+}
+.nav-burger.animate:after {
+  animation: moveUp;
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0.52, 0.14, 0.42, 0.89);
+}
+
+.nav-burger.rotate {
+  animation: rotate;
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0.52, 0.14, 0.42, 0.89);
+}
+
+.nav-burger.animate-reverse:before {
+  animation: moveDown-reverse;
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0.52, 0.14, 0.42, 0.89);
+}
+.nav-burger.animate-reverse:after {
+  animation: moveUp-reverse;
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0.52, 0.14, 0.42, 0.89);
+}
+
+.nav-burger.rotate-reverse {
+  animation: rotate-reverse;
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0.52, 0.14, 0.42, 0.89);   
+}
+
+.nav-menu-bg.active {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  opacity: 0.7;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* for front page nav bar logic */
+@media only screen and (min-width: 767px) {
+  .top-nav-mobile {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .top-nav-container {
+    display: none;
+  }
+
+}

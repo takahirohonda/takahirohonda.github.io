@@ -1,0 +1,154 @@
+.cta-sm {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 12px;
+  line-height: 1.33337;
+  font-weight: 400;
+  letter-spacing: -.01em;
+  min-width: 100px;
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 12px;
+  margin-left: 20px;
+}
+
+.cta-md {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 16px;
+  line-height: 1.33337;
+  font-weight: 400;
+  letter-spacing: -.01em;
+  min-width: 100px;
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 20px;
+  margin: 20px;
+}
+/* tablet & mobile */
+@media only screen and (max-width: 768px) {
+  .cta-md {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    min-width: 80px;
+    /* padding-left: 11px;
+    padding-right: 11px; */
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 12px;
+    margin: 0px 10px;
+  }
+}
+.rate-app-btn {
+  background: #ff2f56;
+  border: 1px solid #ff2f56;
+  color: #fff;
+}
+.rate-app-btn:hover,
+.rate-app-btn:active,
+.rate-app-btn:focus {
+  background: #fff;
+  border: 1px solid #ff2f56;
+  color: #ff2f56;
+}
+
+.see-review-btn {
+  background: #0024d0;
+  border: 1px solid #0024d0;
+  color: #fff;
+}
+
+.see-review-btn:hover,
+.see-review-btn:active,
+.see-review-btn:focus {
+  background: #fff;
+  border: 1px solid #0024d0;
+  color: #0024d0;
+}
+
+/* for front page */
+.find-btn-gradient {
+  color: white;
+  border: 1px solid #f96785;
+  background: linear-gradient(-40deg, #d754ad 0%, #f96785 67%, #fe7333 100%);
+}
+.find-btn-gradient:hover,
+.find-btn-gradient:active,
+.find-btn-gradient:focus {
+  color: #f96785;
+  border: 1px solid #f96785;
+  background: white;
+}
+
+.register-btn-gradient {
+  color: white;
+  border: 1px solid #6c6ff0;
+  background: linear-gradient(-40deg,#9755e7 0%, #6c6ff0 50%, #56acef 100%);
+}
+.register-btn-gradient:hover,
+.register-btn-gradient:active,
+.register-btn-gradient:focus {
+  color: #6c6ff0;
+  border: 1px solid #6c6ff0;
+  background: white;
+}
+
+/* Register button */
+.register-btn {
+  background: linear-gradient(-40deg, #d754ad 0%, #f96785 67%, #fe7333 100%);
+  color: white;
+  border: 1px solid #f96785;
+  width: 140px;
+  height: 40px;
+  font-size: 1.125rem;
+  margin: 10px 10px;
+}
+
+.register-btn:active,
+.register-btn:hover {
+  background: white;
+  color: #f96785;
+  border: 1px solid #f96785;
+  outline: none;
+}
+
+.register-btn:focus {
+  outline: none;
+}
+
+/* App Submit button */
+.submit-btn {
+  background: linear-gradient(-40deg,#9755e7 0%, #6c6ff0 50%, #56acef 100%);
+  color: white;
+  border: 1px solid#6c6ff0;
+  width: 140px;
+  height: 40px;
+  font-size: 1.125rem;
+  margin: 10px 10px;
+}
+
+.submit-btn:active,
+.submit-btn:hover {
+  background: white;
+  color: #6c6ff0;;
+  border: 1px solid #6c6ff0;;
+  outline: none;
+}
+
+.submit-btn:focus {
+  outline: none;
+}

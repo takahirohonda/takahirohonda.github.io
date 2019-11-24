@@ -1,5 +1,5 @@
 .header-super-bold {
-  font-size: 80px;
+  font-size: 70px;
   line-height: 1.05;
   font-weight: 700;
   letter-spacing: -.015em;
@@ -10,13 +10,13 @@
   color: white;
 }
 .article-headline {
-  font-size: 64px;
+  font-size: 46px;
   line-height: 1.08349;
   font-weight: 600;
   letter-spacing: -.003em;
 }
 .article-sub-headline {
-  font-size: 48px;
+  font-size: 40px;
   line-height: 1.16667;
   font-weight: 600;
   letter-spacing: .009em;

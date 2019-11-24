@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="Description" content="PWA App Store">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style/global.css">
+  <link rel="stylesheet" type="text/css" href="style/font-related.css">
+  <link rel="stylesheet" type="text/css" href="style/nav-bars.css" />
+  <link rel="stylesheet" type="text/css" href="style/main.css">
+  <link rel="stylesheet" type="text/css" href="style/app-card.css" />
+  <link rel="stylesheet" type="text/css" href="style/buttons.css" />
+  <title>MyPWA | Find Apps</title>
+</head>
+
+<body>
+  <div class="nav-menu-bg"></div>
+  <nav class="top-nav-container-dark">
+    <div class="container nav-bar-column">
+      <div class="nav-logo-title">
+        <a href="index.html" class="text-white">MyPWA</a>
+      </div>
+      <!-- Nav burger -->
+      <div class="nav-burger-container navbar-toggle">
+        <div class="nav-burger"></div>
+      </div>
+      <!-- Nav Content -->
+      <div class="nav-bar-right">
+        <div class="nav-link-container">
+          <a class="nav-item text-white" href="index.html">Overview</a>
+          <a class="nav-item text-white" href="search.html">Search</a>
+          <a class="nav-item text-white" href="register.html">Register</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+ 
+
+  <!-- step 1 - register your app -->
+  <div class="container p-0">
+    <div class="app-store-title-container">
+      <div class="app-store-title">
+        Step 1 - Register your app
+        <span class="search-result-title"></span>
+      </div>
+    </div>
+  </div>
+  <!-- Form -->
+  <div class="container">
+    <div class="row">
+      <form class="search-form">
+        <div class="search-select-input-container">
+          <select class="search-select">
+            <option value="default">Select App Type</option>
+            <option value="application">Application</option>
+            <option value="game">Game</option>
+          </select>
+          </select>
+          <select class="search-select">
+            <option value="default">Select categories</option>
+            <option value="art-design">Art & Design</option>
+            <option value="auto-vehicles">Auto & Vehicles</option>
+            <option value="books-reference">Books & Reference</option>
+            <option value="business">Business</option>
+            <option value="comics">Comics</option>
+          </select>
+        </div>
+        <div class="search-input-container">
+          <input type="text" class="search-input-field" id="app-start-url" name="app-start-url"
+            placeholder="Enter app start url">
+        </div>
+        <div class="search-input-container">
+          <input type="text" class="search-input-field" id="manifest-url" name="manifest-url"
+            placeholder="Enter manifest file url">
+        </div>
+        <div class="regitster-btn-container">
+          <button type="button" class="register-btn">Register</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- step2 - preview your app -->
+  <div class="container p-0">
+    <div class="app-store-title-container">
+      <div class="app-store-title">
+        Step 2 - Preview your app
+        <span class="search-result-title"></span>
+      </div>
+    </div>
+  </div>
+  <!-- app preview -->
+  <div class="container p-0">
+    <div class="app-item-container">
+      <div class="app-icon-search-result-container">
+        <img class="app-icon-search-result" src="https://mydatahack.github.io/mtd/img/icons/icon-128x128.png"
+          alt="mtd-icon" />
+      </div>
+      <div class="search-result-right-container d-flex justify-content-between">
+        <div class="search-result-main-container">
+          <div class="search-result-app-title">
+            My to do app
+          </div>
+          <div class="search-result-app-sub-title">
+            Organise your life with to do list
+          </div>
+          <a class="download-now-link">
+            <div class="download-now-text">
+              <a href="https://mydatahack.github.io/mtd/" target="_blank">Download Now</a>
+            </div>
+          </a>
+          <div class="search-result-rating-no">
+            28 people rated it
+          </div>
+
+          <div class="search-result-rating">
+            <span class="rating-star rating-star-base">
+              <span class="rating-star-filled rating-star-3-5"></span>
+            </span>
+          </div>
+          <div class="search-result-free-text">
+            Free
+          </div>
+        </div>
+        <div class="search-result-rate-container">
+          <button type="button" class="rate-app-btn cta-md">Rate this app</button>
+          <button type="button" class="see-review-btn cta-md">See reviews</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- step3 - submit your app -->
+  <div class="container p-0">
+    <div class="app-store-title-container">
+      <div class="app-store-title">
+        Step 3 - Submit your app
+        <span class="search-result-title"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container p-0">
+    <div class="submit-your-app-container">
+      <p>Submit your app if you are happy with preview.</p>
+      <p>Make sure to add description in your manifest file. It will become a tag line for your app. If Description is
+        empty, the tag line will be the same as your app name.</p>
+      <p>128x128 is the icon size used for this app. If it doesn't exist, it will take the closest icon size that is
+        bigger than 128x128.</p>
+      <div class="regitster-btn-container">
+        <button type="button" class="submit-btn">Submit</button>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="scripts/animation-helper.js"></script>
+
+</body>
+
+</html>
