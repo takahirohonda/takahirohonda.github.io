@@ -12,25 +12,22 @@
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style/global.css">
-  <link rel="stylesheet" type="text/css" href="style/font-related.css">
-  <link rel="stylesheet" type="text/css" href="style/main.css">
-  <link rel="stylesheet" type="text/css" href="style/app-card.css" />
-  <link rel="stylesheet" type="text/css" href="style/nav-bars.css" />
-  <link rel="stylesheet" type="text/css" href="style/buttons.css" />
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.min.css">
+
   <link rel="manifest" href="manifest.json">
+
   <title>MyPWA | Home</title>
   <script>
-      if('serviceWorker' in navigator) {
-        navigator.serviceWorker
-          .register('/mypwa/sw.js')
-          // .register('/sw.js')
-          .then(function() { 
-            console.log("Service Worker Registered"); 
-          });
-      }
+      // if('serviceWorker' in navigator) {
+      //   navigator.serviceWorker
+      //     .register('/mypwa/sw.js')
+      //     // .register('/sw.js')
+      //     .then(function() { 
+      //       console.log("Service Worker Registered"); 
+      //     });
+      // }
     </script>
 </head>
 
@@ -268,8 +265,7 @@
       </article>
     </section>
   </main>
-  <script src="scripts/animation-helper.js"></script>
-  <script src="scripts/sticky-header.js"></script>
+  
+  <script src="js/main.js"></script>
 </body>
-
 </html>

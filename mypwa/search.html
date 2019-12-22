@@ -12,26 +12,24 @@
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style/global.css">
-    <link rel="stylesheet" type="text/css" href="style/font-related.css">
-    <link rel="stylesheet" type="text/css" href="style/main.css">
-    <link rel="stylesheet" type="text/css" href="style/app-card.css" />
-    <link rel="stylesheet" type="text/css" href="style/nav-bars.css" />
-    <link rel="stylesheet" type="text/css" href="style/buttons.css" />
-    <link rel="manifest" href="manifest.json">
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.min.css">
+
+  <link rel="manifest" href="manifest.json">
+
   <title>MyPWA | Search Apps</title>
+
   <script>
-      // if('serviceWorker' in navigator) {
-      //   navigator.serviceWorker
-      //     .register('/mypwa/sw.js')
-      //     // .register('/sw.js')
-      //     .then(function() { 
-      //       console.log("Service Worker Registered"); 
-      //     });
-      // }
-    </script>
+  if('serviceWorker' in navigator) {
+    navigator.serviceWorker
+      .register('/mypwa/sw.js')
+      // .register('/sw.js')
+      .then(function() { 
+        console.log("Service Worker Registered"); 
+      });
+  }
+  </script>
 </head>
 
 <body>
@@ -59,20 +57,32 @@
     <div class="row">
       <form class="search-form">
         <div class="search-select-input-container">
-          <select class="search-select">
-            <option value="default">Select App Type</option>
-            <option value="application">Application</option>
-            <option value="game">Game</option>
-          </select>
-          </select>
-          <select class="search-select">
-            <option value="default">Select categories</option>
-            <option value="art-design">Art & Design</option>
-            <option value="auto-vehicles">Auto & Vehicles</option>
-            <option value="books-reference">Books & Reference</option>
-            <option value="business">Business</option>
-            <option value="comics">Comics</option>
-          </select>
+          <div class="select-box-left-container">
+            <select class="search-select">
+              <option value="default">Select App Type</option>
+              <option value="application">Application</option>
+              <option value="game">Game</option>
+            </select>
+            </select>
+            <select class="search-select">
+              <option value="default">Select categories</option>
+              <option value="art-design">Art & Design</option>
+              <option value="auto-vehicles">Auto & Vehicles</option>
+              <option value="books-reference">Books & Reference</option>
+              <option value="business">Business</option>
+              <option value="comics">Comics</option>
+            </select>
+          </div>
+          <div class="select-box-right-container">
+            <img src="img/sort-by-icon.svg" class="sort-by-icon" alt='sort by' />
+            <label for="sort-by" class="sr-only">Sort by</label>
+            <select class="sort-by-select" id="sort-by" style="opacity: 0">
+              <option value="aZ">A to Z</option>
+              <option value="zA">Z to A</option>
+              <option value="aZ">Latest</option>
+              <option value="aZ">Oldest</option>
+            </select>
+          </div>
         </div>
         <div class="search-input-container">
           <input type="text" class="search-input-field" id="search-top" name="search-top"
@@ -80,6 +90,31 @@
           <button type="button" class="search-btn"><img class="search-icon" src="img/search-icon.svg" /></button>
         </div>
       </form>
+    </div>
+  </div>
+
+  <!-- preloader -->
+  <div class='preloader-background'>
+    <div class="lds-roller">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+
+  <!-- Page button -->
+  <div class="container p-0 page-btn-top-container">
+    <div class="page-btn-container">
+      <button type="button" class="btn-page-base btn-arrow-base btn-forward"></button>
+      <button type="button" class="btn-page-base btn-page active">1</button>
+      <button type="button" class="btn-page-base btn-page">2</button>
+      <button type="button" class="btn-page-base btn-page">3</button>
+      <button type="button" class="btn-page-base btn-arrow-base btn-backward"></button>
     </div>
   </div>
   <!-- search results -->
@@ -118,7 +153,7 @@
 
           <div class="search-result-rating">
             <span class="rating-star rating-star-base">
-              <span class="rating-star-filled rating-star-3-5"></span>
+              <span class="rating-star-filled" style="width: 45px"></span>
             </span>
           </div>
           <div class="search-result-free-text">
@@ -161,7 +196,7 @@
 
           <div class="search-result-rating">
             <span class="rating-star rating-star-base">
-              <span class="rating-star-filled rating-star-3-5"></span>
+              <span class="rating-star-filled" style="width: 50px"></span>
             </span>
           </div>
           <div class="search-result-free-text">
@@ -203,7 +238,7 @@
 
           <div class="search-result-rating">
             <span class="rating-star rating-star-base">
-              <span class="rating-star-filled rating-star-3-5"></span>
+              <span class="rating-star-filled" style="width: 35px"></span>
             </span>
           </div>
           <div class="search-result-free-text">
@@ -246,7 +281,7 @@
 
           <div class="search-result-rating">
             <span class="rating-star rating-star-base">
-              <span class="rating-star-filled rating-star-3-5"></span>
+              <span class="rating-star-filled" style="width: 25px"></span>
             </span>
           </div>
           <div class="search-result-free-text">
@@ -288,7 +323,7 @@
 
           <div class="search-result-rating">
             <span class="rating-star rating-star-base">
-              <span class="rating-star-filled rating-star-3-5"></span>
+              <span class="rating-star-filled" style="width: 15px"></span>
             </span>
           </div>
           <div class="search-result-free-text">
@@ -330,7 +365,7 @@
 
           <div class="search-result-rating">
             <span class="rating-star rating-star-base">
-              <span class="rating-star-filled rating-star-3-5"></span>
+              <span class="rating-star-filled" style="width: 10px"></span>
             </span>
           </div>
           <div class="search-result-free-text">
@@ -372,7 +407,7 @@
 
           <div class="search-result-rating">
             <span class="rating-star rating-star-base">
-              <span class="rating-star-filled rating-star-3-5"></span>
+              <span class="rating-star-filled" style="width: 5px"></span>
             </span>
           </div>
           <div class="search-result-free-text">
@@ -415,7 +450,7 @@
 
           <div class="search-result-rating">
             <span class="rating-star rating-star-base">
-              <span class="rating-star-filled rating-star-3-5"></span>
+              <span class="rating-star-filled" style="width: 50px;"></span>
             </span>
           </div>
           <div class="search-result-free-text">
@@ -430,8 +465,115 @@
     </div>
   </div>
 
-  <script src="scripts/animation-helper.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    // Spinner for clicking search icon
+    var preloader = document.querySelector('.preloader-background');
+    var searchBtn = document.querySelector('.search-btn');
 
+    searchBtn.addEventListener('click', () => {
+      preloader.classList.add('active');
+      setTimeout(() => { preloader.classList.remove('active') }, 3000)
+    });
+
+    // Event listener for the page
+    var pageBtnContainer = document.querySelector('.page-btn-container');
+    var pageButtons = document.querySelectorAll('.btn-page');
+
+    pageBtnContainer.addEventListener('click', e => {
+      if (!e.target.closest('.btn-arrow-base')) {
+        clearActive(pageButtons);
+      };
+
+      if (e.target.closest('.btn-page')) {
+        e.target.classList.add('active');
+      };
+    })
+
+    function clearActive(elemList) {
+      for (var i of elemList) {
+        if(i.classList.contains('active')) {
+          i.classList.remove('active');
+        }
+      }
+    }
+
+    // page button increment & decrement
+    var currentIndex = 0;
+    var recordCount = 75;
+    var pageCount = Math.round(recordCount/10);
+    
+    var pageArray = [...Array(pageCount).keys()];
+    var pageArrayFormatted = pageArray.map(a => a + 1);
+    var pageUiArray = [];
+
+    var pageBlockCount = Math.round(pageCount/3);
+
+    for (var i=0; i < pageBlockCount; i++) {
+      pageUiArray.push(pageArrayFormatted.slice(i*3, i*3+3))
+    }
+
+    console.log('output for pageUiArray: ', pageUiArray)
+
+    document.querySelector('.btn-backward').addEventListener('click', () => {
+      if (currentIndex !== pageBlockCount-1) {
+        currentIndex += 1;
+        var btnPage = document.querySelectorAll('.btn-page');
+        for(var i=0; i < btnPage.length; i++) {
+          // (1) clear active
+          if (btnPage[i].classList.contains('active')) {
+            btnPage[i].classList.remove('active');
+          }
+          // (2) When there is no value
+          if (typeof(pageUiArray[currentIndex][i]) === 'undefined') {
+            btnPage[i].innerHTML = '';
+            btnPage[i].disabled = true;
+            btnPage[i].classList.add('btn-arrow-base');
+          } else {
+            // (3) Add active back to first element
+            if (i === 0) {
+              if (!btnPage[i].classList.contains('active')) {
+                btnPage[i].classList.add('active');
+              }
+            }
+            btnPage[i].innerHTML = '';
+            btnPage[i].innerHTML = pageUiArray[currentIndex][i]
+          }
+        }
+      } 
+    })
+    
+    document.querySelector('.btn-forward').addEventListener('click', () => {
+      if (currentIndex !== 0) {
+        currentIndex -= 1;
+        var btnPage = document.querySelectorAll('.btn-page');
+        for(var i=0; i < btnPage.length; i++) {
+          // (1) Clear active
+          if (btnPage[i].classList.contains('active')) {
+            btnPage[i].classList.remove('active');
+          }
+          // (2) Clear transparent background in case it is required
+          if (btnPage[i].classList.contains('btn-arrow-base')) {
+            btnPage[i].classList.remove('btn-arrow-base')
+            btnPage[i].disabled = false;
+          }
+
+          if (typeof(pageUiArray[currentIndex][i]) === 'undefined') {
+            btnPage[i].innerHTML = '';
+          } else {
+            // (2) Add active back to the first element
+            if (i === 0) {
+              if (!btnPage[i].classList.contains('active')) {
+                btnPage[i].classList.add('active');
+              }
+            }
+            btnPage[i].innerHTML = '';
+            btnPage[i].innerHTML = pageUiArray[currentIndex][i]
+          }
+        }
+      } 
+    })
+  </script>
 </body>
 
 </html>
