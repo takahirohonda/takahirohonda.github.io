@@ -1,4 +1,4 @@
-var staticCacheName = 'myPwaApp-cache-v1573557681713'
+var staticCacheName = 'myPwaApp-cache-v1573557681714'
 self.addEventListener('install', function(e) {
   e.waitUntil(
     caches.open(staticCacheName).then(function(cache) {
@@ -6,8 +6,6 @@ self.addEventListener('install', function(e) {
         '/mypwa/index.html',
         '/mypwa/register.html',
         '/mypwa/search.html',
-        '/mypwa/scripts/animation-helper.js',
-        '/mypwa/scripts/sticky-header.js',
         '/mypwa/css/bootstrap.min.css',
         '/mypwa/css/main.min.css',
         '/mypwa/js/main.js'
