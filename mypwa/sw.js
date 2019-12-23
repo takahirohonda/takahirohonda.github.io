@@ -1,4 +1,4 @@
-var staticCacheName = 'myPwaApp-cache-v1573557681712'
+var staticCacheName = 'myPwaApp-cache-v1573557681713'
 self.addEventListener('install', function(e) {
   e.waitUntil(
     caches.open(staticCacheName).then(function(cache) {
@@ -8,13 +8,9 @@ self.addEventListener('install', function(e) {
         '/mypwa/search.html',
         '/mypwa/scripts/animation-helper.js',
         '/mypwa/scripts/sticky-header.js',
-        'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css',
-        '/mypwa/style/global.css',
-        '/mypwa/style/font-related.css',
-        '/mypwa/style/main.css',
-        '/mypwa/style/app-card.css',
-        '/mypwa/style/nav-bars.css',
-        '/mypwa/style/buttons.css',
+        '/mypwa/css/bootstrap.min.css',
+        '/mypwa/css/main.min.css',
+        '/mypwa/js/main.js'
       ]);
       // return cache.addAll([
       //   '/index.html',
