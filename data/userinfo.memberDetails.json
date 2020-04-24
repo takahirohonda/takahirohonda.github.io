@@ -1,0 +1,22 @@
+{
+  "result": {
+    "accountType": "super",
+    "memberDetails": {
+      "fullGivenName": "Joe Test",
+      "details": {
+        "id": "411362947",
+        "title": "Mr",
+        "givenNames": [
+          {
+            "name": "Joe Paul",
+            "sequence": 1
+          }
+        ],
+        "lastName": "Test",
+        "gender": "Male",
+        "dateOfBirth": "1956-05-18",
+        "emailAddress": "crazymail@mailinator.com"
+      }
+    }
+  }
+}
