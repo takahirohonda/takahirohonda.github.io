@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payins Dashboard</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/containers.css">
+  <link rel="stylesheet" href="css/nav-panel.css">
+  <link rel="stylesheet" href="css/panel-main.css">
+  <link rel="stylesheet" href="css/panel-table.css">
+  <link rel="stylesheet" href="css/bar-graph.css">
+</head>
+
+<body>
+  <div class="bg-dark"></div>
+  <div class="bg-transparent"></div>
+  <div class="main-container">
+    <div class="nav-panel-container">
+      <ul class="panel-ul">
+        <li class="panel-list">Overview</li>
+        <li class="panel-list">Payments</li>
+        <li class="panel-list">Platform Account</li>
+        <li class="panel-list">Customers</li>
+        <li class="panel-list">Developer Tools</li>
+        <li class="panel-list">Settings</li>
+      </ul>
+    </div> <!-- End of left container -->
+    <div class="dashboard-container">
+      <!-- for tablet and mobile -->
+      <div class="dashboard-nav-burger-container">
+        <div class="nav-square">
+          <div class="nav-burger"></div>
+        </div>
+      </div>
+      <div class="dashboard-inner-container">
+        <div class="dashboard-row">
+          <div class="outer-panel-container">
+            <div class="panel-container">
+              <div class="panel-top">
+                <p class="panel-top-left-text">Payins - $Value</p>
+                <label for="paying-total"></label>
+                <select name="paying-total" id="paying-total">
+                  <option>Today</option>
+                  <option>Last Week</option>
+                  <option>Last Month</option>
+                  <option>All Time</option>
+                </select>
+              </div>
+              <div class="panel-main">
+                <div class="panel-main-content bold-font">
+                  <p class="panel-main-header-text">PAYINS TOTOAL</p>
+                  <p class="panel-main-amount">$23,44,54</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dashboard-row row-medium">
+          <div class="outer-panel-container container-medium">
+            <div class="panel-container">
+              <div class="panel-top">
+                <p class="panel-top-left-text">Payins - Volume</p>
+                <label for="paying-volume"></label>
+                <select name="paying-volume" id="paying-volume">
+                  <option>Daily</option>
+                  <option>Weekly</option>
+                  <option>Monthly</option>
+                </select>
+              </div>
+              <div class="panel-bar-graph">
+                <div class="bar-graph-container">
+                  <div class="bar-container">
+                    <div class="bar" style="height:80px;"></div>
+                  </div>
+                  <div class="bar-container">
+                    <div class="bar" style="height:120px;"></div>
+                  </div>
+                  <div class="bar-container">
+                    <div class="bar" style="height:150px;"></div>
+                  </div>
+                  <div class="bar-container">
+                    <div class="bar" style="height:40px;"></div>
+                  </div>
+                  <div class="bar-container">
+                    <div class="bar" style="height:20px;"></div>
+                  </div>
+                  <div class="bar-container">
+                    <div class="bar" style="height:100px;"></div>
+                  </div>
+                  <div class="bar-container">
+                    <div class="bar" style="height:60px;"></div>
+                  </div>
+                  <div class="bar-container">
+                    <div class="bar" style="height:80px;"></div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="outer-panel-container">
+            <div class="panel-container">
+              <div class="panel-top">
+                <p class="panel-top-left-text">Payins - Pending $</p>
+                <label for="pending-payins"></label>
+                <select name="pending-payins" id="pending-payins">
+                  <option>Today</option>
+                  <option>Last Week</option>
+                  <option>Last Month</option>
+                  <option>All Time</option>
+                </select>
+              </div>
+              <div class="panel-main">
+                <div class="panel-main-content bold-font">
+                  <p class="panel-main-header-text">PAYINS TOTOAL</p>
+                  <p class="panel-main-amount ">$1,218.54</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- End of first dashboard inner container -->
+      <div class="dashboard-inner-container">
+        <div class="table-panel-containers">
+          <div class="table-title-container">
+            <h3 class="table-title">
+              Latest Payins
+            </h3>
+            <div class="table-options-square">
+              
+            </div>
+          </div>
+          <div class="table-container">
+            <div class="table-options">
+              <div class="table-options-left">
+                <button type="button" class="table-option-button btn-no-style bold-font">All</button>
+                <button type="button" class="table-option-button btn-no-style bold-font">Credit Card</button>
+                <button type="button" class="table-option-button btn-no-style bold-font">BPP</button>
+                <button type="button" class="table-option-button btn-no-style bold-font">BPAY</button>
+                <button type="button" class="table-option-button btn-no-style bold-font">Direct Debit</button>
+                <button type="button" class="table-option-button btn-no-style bold-font">Wallet Transfer</button>
+                <button type="button" class="table-option-button btn-no-style bold-font">Wire Transfer</button>
+              </div>
+              <div class="table-options-right">
+                <div class="filter-container">
+                  <button type="button" class="table-filter table-option-button btn-no-style bold-font">Filter</button>
+                  <div class="filter-icon-container">
+                    <div class="filter-icon"></div>
+                  </div>
+                </div>
+                <label for="search" class="sr-only">Search</label>
+                <input class="search-input  bold-font" type="text" name="search" id="search" value="Search" />
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="outer-panel-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Send</th>
+                <th>Sender</th>
+                <th>Amount</th>
+                <th>Method</th>
+                <th>Item</th>
+                <th>Status</th>
+              </tr>
+              <tr class="mobile-tr-header">
+                <th>Send</th>
+                <th>Sender</th>
+                <th>Amount</th>
+                <th>Method</th>
+                <th>Item</th>
+                <th>Status</th>
+              </tr>
+              <tr class="mobile-tr-header">
+                <th>Send</th>
+                <th>Sender</th>
+                <th>Amount</th>
+                <th>Method</th>
+                <th>Item</th>
+                <th>Status</th>
+              </tr>
+              <tr class="mobile-tr-header">
+                <th>Send</th>
+                <th>Sender</th>
+                <th>Amount</th>
+                <th>Method</th>
+                <th>Item</th>
+                <th>Status</th>
+              </tr>
+              <tr class="mobile-tr-header">
+                <th>Send</th>
+                <th>Sender</th>
+                <th>Amount</th>
+                <th>Method</th>
+                <th>Item</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>23/03/19 10:23:00 AM</td>
+                <td>Alex Citizen</td>
+                <td>$304</td>
+                <td>BPAY</td>
+                <td>Something123</td>
+                <td>Pending</td>
+              </tr>
+              <tr>
+                <td>22/03/19 9:53:00 PM</td>
+                <td>Joe Bloggs</td>
+                <td>$605</td>
+                <td>NPP</td>
+                <td>Something123</td>
+                <td>Completed</td>
+              </tr>
+              <tr>
+                <td>21/03/19 5:46:00 AM</td>
+                <td>Cindy Citizen</td>
+                <td>$2</td>
+                <td>Credit Card</td>
+                <td>Something123</td>
+                <td>Refunded</td>
+              </tr>
+              <tr>
+                <td>23/03/19 10:23:00 AM</td>
+                <td>Tommy Wang</td>
+                <td>$1,804</td>
+                <td>Direct Debit</td>
+                <td>Something190</td>
+                <td>Pending</td>
+              </tr>
+              <tr>
+                <td>23/03/19 10:23:00 AM</td>
+                <td>Charles Cruz</td>
+                <td>$100,000</td>
+                <td>BPAY</td>
+                <td>Something345</td>
+                <td>Completed</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="outer-panel-container">
+          <div class="pagignation-container">
+            <div class="pagignation-left pagignation-outer">
+              <button type="button" class="arrow-box left-arrow-icon add-line">
+                <div></div>
+              </button>
+              <button type="button" class="arrow-box left-arrow-icon center-arrow">
+                <div></div>
+              </button>
+              <div class="pagignation-right  pagignation-outer">
+                <button type="button" class="arrow-box left-arrow-icon center-arrow rotete-for-right">
+                  <div></div>
+                </button>
+                <button type="button" class="arrow-box left-arrow-icon add-line rotete-for-right">
+                  <div></div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- End of second dashboard inner container -->
+    </div> <!-- End of dashboard container -->
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
