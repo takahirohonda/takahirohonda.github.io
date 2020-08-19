@@ -1,0 +1,58 @@
+.header-sign-in-btn {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 25px;
+  padding: 5px 24px;
+  transition: transform 0.1s ease 0s, background-color, border-color;
+}
+
+.header-sign-in-btn:hover, .header-sign-in-btn:active, .header-sign-in-btn:focus {
+  background-color: rgb(35, 175, 186);
+  color: white;
+}
+
+.hero-cta-btn {
+  cursor: pointer;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  user-select: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(62, 44, 15);
+  text-decoration: none;
+  transition: transform 0.1s ease 0s, background-color, border-color;
+  padding: 13px 24px 12px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  background: rgb(255, 216, 95);
+  border-radius: 25px;
+  margin: 10px 10px 10px 0px;
+}
+
+.hero-info-btn {
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Avenir Next W01", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  user-select: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: transform 0.1s ease 0s, background-color, border-color;
+  padding: 13px 24px 12px;
+  background: transparent;
+  border-width: 1px;
+  border-style: solid;
+  border-image: initial;
+  border-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  margin: 10px 10px 10px 0px;
+}

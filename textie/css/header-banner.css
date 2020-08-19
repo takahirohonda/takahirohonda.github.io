@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&Nova+Round&display=swap');
+
+.color-idea {  
+  color: #f8c941, #f3707d, #1db954
+}
+
+.header-banner-bg {
+  background-image: linear-gradient(to right, #3072be 0%, #5b9fef 100%);
+  padding: 0px 0px;
+}
+
+.logo-img {
+  margin-left: 10px;
+  width: 35px;
+  height: 35px;
+}
+
+.header-logo {
+  fill: white;
+}
+.logo-txt {
+  font-family: 'Nova Round', cursive;
+  font-size: 28px;
+  color: white;
+  margin: 10px 5px;
+}
+
