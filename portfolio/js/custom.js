@@ -63,7 +63,7 @@
     // open and close sub menu for mobile
 
     const mnuOption2InnerContainer = document.body.querySelector('.menu-option__2-inner-container');
-    mnuOption2InnerContainer.addEventListener('click', () => {
+    mnuOption2InnerContainer.addEventListener('mouseover', () => {
       toggleActive(document.body.querySelector('.sub-menu'));
       toggleActive(document.body.querySelector('.down-arrow'));
 
