@@ -25,3 +25,9 @@
 .carousel-content-text {
   color:white;
 }
+
+/* override z-index */
+
+.carousel-indicators {
+  z-index: 0;
+}
