@@ -127,6 +127,25 @@
   top: 5px;
   left: -1px;
 }
+.top-header.active .nav-burger {
+  border-color: black;
+}
+.top-header.active .nav-burger:before {
+  border-color: black;
+}
+.top-header.active .nav-burger:after {
+  border-color: black;
+}
+
+.top-header.active .nav-burger.animate {
+  border-color: white;
+}
+.top-header.active .nav-burger.animate:before {
+  border-color: white;
+}
+.top-header.active .nav-burger.animate:after {
+  border-color: white;
+}
 
 .menu-option-link {
   color: white;
