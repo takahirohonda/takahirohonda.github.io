@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://mydatahack.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mydatahack.github.io/" rel="alternate" type="text/html" /><updated>2020-09-12T12:40:02+00:00</updated><id>https://mydatahack.github.io/feed.xml</id><title type="html">My Portfolio</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Lorem ipsum</title><link href="https://mydatahack.github.io/creative-writing/poetry/lorem-ipsum" rel="alternate" type="text/html" title="Lorem ipsum" /><published>2020-09-06T02:05:30+00:00</published><updated>2020-09-06T02:05:30+00:00</updated><id>https://mydatahack.github.io/creative-writing/poetry/lorem-ipsum</id><content type="html" xml:base="https://mydatahack.github.io/creative-writing/poetry/lorem-ipsum">&lt;p&gt;Lorem-ipsum&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://mydatahack.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mydatahack.github.io/" rel="alternate" type="text/html" /><updated>2020-09-13T09:48:22+00:00</updated><id>https://mydatahack.github.io/feed.xml</id><title type="html">My Portfolio</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Lorem ipsum</title><link href="https://mydatahack.github.io/creative-writing/short-story/lorem-ipsum" rel="alternate" type="text/html" title="Lorem ipsum" /><published>2020-09-06T02:05:30+00:00</published><updated>2020-09-06T02:05:30+00:00</updated><id>https://mydatahack.github.io/creative-writing/short-story/lorem-ipsum</id><content type="html" xml:base="https://mydatahack.github.io/creative-writing/short-story/lorem-ipsum">&lt;p&gt;Lorem-ipsum&lt;/p&gt;
 
 &lt;p&gt;Lorem-ipsum&lt;/p&gt;
 
@@ -10,16 +10,165 @@
 
 &lt;p&gt;Lorem-ipsum&lt;/p&gt;
 
-&lt;p&gt;Lorem-ipsum&lt;/p&gt;</content><author><name></name></author><category term="poetry" /><summary type="html">Lorem-ipsum</summary></entry><entry><title type="html">Lorem ipsum</title><link href="https://mydatahack.github.io/creative-writing/short-story/lorem-ipsum" rel="alternate" type="text/html" title="Lorem ipsum" /><published>2020-09-06T02:05:30+00:00</published><updated>2020-09-06T02:05:30+00:00</updated><id>https://mydatahack.github.io/creative-writing/short-story/lorem-ipsum</id><content type="html" xml:base="https://mydatahack.github.io/creative-writing/short-story/lorem-ipsum">&lt;p&gt;Lorem-ipsum&lt;/p&gt;
+&lt;p&gt;Lorem-ipsum&lt;/p&gt;</content><author><name></name></author><category term="short-story" /><summary type="html">Lorem-ipsum</summary></entry><entry><title type="html">Metric</title><link href="https://mydatahack.github.io/creative-writing/poetry/metric" rel="alternate" type="text/html" title="Metric" /><published>0001-01-09T00:00:00+00:00</published><updated>0001-01-09T00:00:00+00:00</updated><id>https://mydatahack.github.io/creative-writing/poetry/metrics</id><content type="html" xml:base="https://mydatahack.github.io/creative-writing/poetry/metric">&lt;p&gt;creating of dissatisfaction –&lt;/p&gt;
 
-&lt;p&gt;Lorem-ipsum&lt;/p&gt;
+&lt;p&gt;is the metric –&lt;/p&gt;
 
-&lt;p&gt;Lorem-ipsum&lt;/p&gt;
+&lt;p&gt;for – customer – satisfaction&lt;/p&gt;</content><author><name></name></author><category term="poetry" /><summary type="html">creating of dissatisfaction –</summary></entry><entry><title type="html">Faith</title><link href="https://mydatahack.github.io/creative-writing/poetry/faith" rel="alternate" type="text/html" title="Faith" /><published>0001-01-08T00:00:00+00:00</published><updated>0001-01-08T00:00:00+00:00</updated><id>https://mydatahack.github.io/creative-writing/poetry/faith</id><content type="html" xml:base="https://mydatahack.github.io/creative-writing/poetry/faith">&lt;p&gt;you have faith in everything –&lt;/p&gt;
 
-&lt;p&gt;Lorem-ipsum&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+but – me –
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Lorem-ipsum&lt;/p&gt;
+&lt;p&gt;i know&lt;/p&gt;
 
-&lt;p&gt;Lorem-ipsum&lt;/p&gt;
+&lt;p&gt;    i don’t deserve it&lt;/p&gt;
 
-&lt;p&gt;Lorem-ipsum&lt;/p&gt;</content><author><name></name></author><category term="short-story" /><summary type="html">Lorem-ipsum</summary></entry></feed>
+&lt;p&gt;But&lt;/p&gt;
+
+&lt;p&gt;    why not?&lt;/p&gt;</content><author><name></name></author><category term="poetry" /><summary type="html">you have faith in everything –</summary></entry><entry><title type="html">Manifesto</title><link href="https://mydatahack.github.io/creative-writing/poetry/manifesto" rel="alternate" type="text/html" title="Manifesto" /><published>0001-01-07T00:00:00+00:00</published><updated>0001-01-07T00:00:00+00:00</updated><id>https://mydatahack.github.io/creative-writing/poetry/manifesto</id><content type="html" xml:base="https://mydatahack.github.io/creative-writing/poetry/manifesto">&lt;p&gt;Word created – the – World&lt;/p&gt;
+
+&lt;p&gt;Words created the God –&lt;/p&gt;
+
+&lt;p&gt;God is a word&lt;/p&gt;
+
+&lt;p&gt;As I speak these Words –&lt;/p&gt;
+
+&lt;p&gt;I am the creater of the World&lt;/p&gt;</content><author><name></name></author><category term="poetry" /><summary type="html">Word created – the – World</summary></entry><entry><title type="html">Moment of Maddness</title><link href="https://mydatahack.github.io/creative-writing/poetry/moment-of-maddness" rel="alternate" type="text/html" title="Moment of Maddness" /><published>0001-01-06T00:00:00+00:00</published><updated>0001-01-06T00:00:00+00:00</updated><id>https://mydatahack.github.io/creative-writing/poetry/moment-of-madness</id><content type="html" xml:base="https://mydatahack.github.io/creative-writing/poetry/moment-of-maddness">&lt;p&gt;A moment of madness&lt;/p&gt;
+
+&lt;p&gt;I’m waiting for you –&lt;/p&gt;
+
+&lt;p&gt;No consequence – No future –&lt;/p&gt;
+
+&lt;p&gt;I’ll embrace you with my arms wide open&lt;/p&gt;
+
+&lt;p&gt;with clarity – purpose – deamon – angel&lt;/p&gt;
+
+&lt;p&gt;of a martyr&lt;/p&gt;
+
+&lt;p&gt;strapped in a ticking time bomb&lt;/p&gt;
+
+&lt;p&gt;at the Federation Square 3pm&lt;/p&gt;
+
+&lt;p&gt;in a sunny Sunday afternoon
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;A moment of maddness&lt;/p&gt;
+
+&lt;p&gt;Come to me – Come to me –&lt;/p&gt;
+
+&lt;p&gt;Reasoning will be a retrospective spectacle&lt;/p&gt;
+
+&lt;p&gt;Contemplated in a gap between your baby and womb&lt;/p&gt;
+
+&lt;p&gt;where I have no part to play&lt;/p&gt;
+
+&lt;p&gt;I’m tired of –&lt;/p&gt;
+
+&lt;p&gt;justifying my will with a perfect will –&lt;/p&gt;
+
+&lt;p&gt;There is no such will anyway
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;A moment of maddness&lt;/p&gt;
+
+&lt;p&gt;Free me – Free me –&lt;/p&gt;
+
+&lt;p&gt;Defy the law of gravity&lt;/p&gt;
+
+&lt;p&gt;the power of reasoning –&lt;/p&gt;
+
+&lt;p&gt;A healthy dose of hope –&lt;/p&gt;
+
+&lt;p&gt;Cold stare of the 3-eyed skull&lt;/p&gt;
+
+&lt;p&gt;with 20-20-20 vision&lt;/p&gt;
+
+&lt;p&gt;My dope, doctor, dog, dough, doctorin&lt;/p&gt;
+
+&lt;p&gt;documentation, Dostoevsky&lt;/p&gt;
+
+&lt;p&gt;Burn them all&lt;/p&gt;</content><author><name></name></author><category term="poetry" /><summary type="html">A moment of madness</summary></entry><entry><title type="html">Hero Dose</title><link href="https://mydatahack.github.io/creative-writing/poetry/hero-dose" rel="alternate" type="text/html" title="Hero Dose" /><published>0001-01-05T00:00:00+00:00</published><updated>0001-01-05T00:00:00+00:00</updated><id>https://mydatahack.github.io/creative-writing/poetry/hero-dose</id><content type="html" xml:base="https://mydatahack.github.io/creative-writing/poetry/hero-dose">&lt;p&gt;9 grams
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;3 grams — Big doses
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;2 grams — Small doses
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;9 grams — Hero dose
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name></name></author><category term="poetry" /><summary type="html">9 grams</summary></entry><entry><title type="html">Nail Gun</title><link href="https://mydatahack.github.io/creative-writing/poetry/nail-gun" rel="alternate" type="text/html" title="Nail Gun" /><published>0001-01-04T00:00:00+00:00</published><updated>0001-01-04T00:00:00+00:00</updated><id>https://mydatahack.github.io/creative-writing/poetry/nail-gun</id><content type="html" xml:base="https://mydatahack.github.io/creative-writing/poetry/nail-gun">&lt;p&gt;I fired a nail gun&lt;/p&gt;
+
+&lt;p&gt;    into Emma’s right breast
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;click, click, click, click, click
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;She blead and cried
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I held her in my arms
+and gently pulled all the nails.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I sincerely apologized to her
+– I am sorry. I didn’t mean to hurg you
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;She said – it’s ok, I will forgive you
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The holes left by the nails on her breast&lt;/p&gt;
+
+&lt;p&gt;remained opened and hollow&lt;/p&gt;
+
+&lt;p&gt;Everytime she looks at her breast&lt;/p&gt;
+
+&lt;p&gt;She was reminded&lt;/p&gt;
+
+&lt;p&gt;that I was the one who&lt;/p&gt;
+
+&lt;p&gt;fired the nail gun at her&lt;/p&gt;
+
+&lt;p&gt;perfect breast&lt;/p&gt;</content><author><name></name></author><category term="poetry" /><summary type="html">I fired a nail gun</summary></entry><entry><title type="html">Paper Cut</title><link href="https://mydatahack.github.io/creative-writing/poetry/paper-cut" rel="alternate" type="text/html" title="Paper Cut" /><published>0001-01-03T00:00:00+00:00</published><updated>0001-01-03T00:00:00+00:00</updated><id>https://mydatahack.github.io/creative-writing/poetry/paper-cut</id><content type="html" xml:base="https://mydatahack.github.io/creative-writing/poetry/paper-cut">&lt;p&gt;sharp   pain 
+&lt;br /&gt;&lt;br /&gt;
+               from   paper   cut
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;‘twere easier for you&lt;/p&gt;
+
+&lt;p&gt;to believe&lt;/p&gt;
+
+&lt;p&gt;you’re not good enough&lt;/p&gt;</content><author><name></name></author><category term="poetry" /><summary type="html">sharp  pain                from  paper  cut</summary></entry><entry><title type="html">House Party</title><link href="https://mydatahack.github.io/creative-writing/poetry/house-party" rel="alternate" type="text/html" title="House Party" /><published>0001-01-02T00:00:00+00:00</published><updated>0001-01-02T00:00:00+00:00</updated><id>https://mydatahack.github.io/creative-writing/poetry/hose-party</id><content type="html" xml:base="https://mydatahack.github.io/creative-writing/poetry/house-party">&lt;p&gt;I kissed Sara for the first time&lt;/p&gt;
+
+&lt;p&gt;While Eileen was in – another room&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+I liked Eileen more than Sara
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Distance is – a – Tyranny&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;was the only lame execuse&lt;/p&gt;
+
+&lt;p&gt;I could’ve though of&lt;/p&gt;
+
+&lt;p&gt;at 3am in the morning&lt;/p&gt;</content><author><name></name></author><category term="poetry" /><summary type="html">I kissed Sara for the first time</summary></entry><entry><title type="html">Silver Spoon</title><link href="https://mydatahack.github.io/creative-writing/poetry/silver-spoon" rel="alternate" type="text/html" title="Silver Spoon" /><published>0001-01-01T00:00:00+00:00</published><updated>0001-01-01T00:00:00+00:00</updated><id>https://mydatahack.github.io/creative-writing/poetry/sliver-spoon</id><content type="html" xml:base="https://mydatahack.github.io/creative-writing/poetry/silver-spoon">&lt;p&gt;Food fed by a Silver Spoon –&lt;/p&gt;
+
+&lt;p&gt;How Easy – to spit It out –&lt;/p&gt;
+
+&lt;p&gt;How Easy – to forget about It&lt;/p&gt;
+
+&lt;p&gt;And completely occupy Myself –&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+With – a – Thought –
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;How Good it’d have been tasted –&lt;/p&gt;
+
+&lt;p&gt;Had the Spoon been Gold&lt;/p&gt;</content><author><name></name></author><category term="poetry" /><summary type="html">Food fed by a Silver Spoon –</summary></entry></feed>
