@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmydatahack_blog_site_gatsby=self.webpackChunkmydatahack_blog_site_gatsby||[]).push([[49],{2766:function(e,n,a){a.r(n);var t=a(183),i=a(5893);n.default=function(){return(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)(t.nz,{}),(0,i.jsx)("main",{children:(0,i.jsx)(t.OO,{children:(0,i.jsx)(t.eT,{children:"Building AlexNet with TensorFlow and Running it with AWS SageMaker"})})})]})}}}]);
+//# sourceMappingURL=component---src-pages-about-tsx-de9549a94b58cc557a0a.js.map
