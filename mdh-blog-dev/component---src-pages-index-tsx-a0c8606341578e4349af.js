@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkmydatahack_blog_site_gatsby=self.webpackChunkmydatahack_blog_site_gatsby||[]).push([[691],{7200:function(e,t,a){a.r(t);var s=a(5021),l=a(5893);t.default=function(){return(0,l.jsx)(s.A,{siteTitle:"Home",children:(0,l.jsx)("p",{children:"Hello World"})})}}}]);
-//# sourceMappingURL=component---src-pages-index-tsx-a0c8606341578e4349af.js.map
