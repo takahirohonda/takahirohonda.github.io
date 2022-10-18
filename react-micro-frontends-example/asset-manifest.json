@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/static/js/main.7462e72d.js",
-    "index.html": "/index.html",
-    "main.7462e72d.js.map": "/static/js/main.7462e72d.js.map"
+    "main.js": "/react-micro-frontends-example/static/js/main.acf0cd61.js",
+    "index.html": "/react-micro-frontends-example/index.html",
+    "main.acf0cd61.js.map": "/react-micro-frontends-example/static/js/main.acf0cd61.js.map"
   },
   "entrypoints": [
-    "static/js/main.7462e72d.js"
+    "static/js/main.acf0cd61.js"
   ]
 }
