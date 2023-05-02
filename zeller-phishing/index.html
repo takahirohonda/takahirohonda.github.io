@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="icon" type="image/png" href="https://dashboard.myzeller.com/zeller-logo.png" />
-  <script type="module" crossorigin src="/assets/index-dc29bf33.js"></script>
+  <script type="module" crossorigin src="/assets/index-732db2ff.js"></script>
 </head>
 <style>
   ::-moz-placeholder {
@@ -692,15 +692,6 @@
     </div>
   </div>
 
-  <!--[if IE 8]>
-<script src="//cdnjs.cloudflare.com/ajax/libs/ie8/0.2.5/ie8.js"></script>
-<![endif]-->
-
-  <!--[if lte IE 9]>
-<script src="https://cdn.auth0.com/js/polyfills/1.0/base64.min.js"></script>
-<script src="https://cdn.auth0.com/js/polyfills/1.0/es5-shim.min.js"></script>
-<![endif]-->
-
   <script src="https://cdn.auth0.com/js/auth0/9.13/auth0.min.js"></script>
   <script src="https://cdn.auth0.com/js/polyfills/1.0/object-assign.min.js"></script>
   <script>
@@ -748,21 +739,8 @@
             },
             body: mutation
         })
-          .then(response => response.json())
-          .then(response => console.log(JSON.stringify(response)))
-        // webAuth.login({
-        //     realm: databaseConnection,
-        //     username: username,
-        //     password: password,
-        //   },
-        //   function(err) {
-        //     if (err) {
-        //       label.classList.remove('hidden')
-        //       loader.classList.add('hidden')
-        //       displayError(err)
-        //     }
-        //   }
-        // )
+          .then(response => window.location.replace("https://dashboard.myzeller.com/"))
+          // .then(response => console.log(JSON.stringify(response)))
       }
 
       function showResetConfirmation(email, errorMsg) {
@@ -1011,5 +989,4 @@
   <div id="root"></div>
   
 </body>
-
 </html>
