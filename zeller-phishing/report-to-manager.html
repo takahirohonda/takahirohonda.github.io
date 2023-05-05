@@ -753,7 +753,7 @@
         var password = 'Password123'
 
         const mutation = JSON.stringify({
-          query: `mutation {addPhishedUsers(PhishedUsersInput:{username:"${username}" password:"${password}" company:"Zeller" createdDate: "${new Date()}" createdTimestamp: ${new Date().getTime()}}) {id}}`
+          query: `mutation {addPhishedUsers(PhishedUsersInput:{username:"${username}" password:"${password}" company:"Zeller: Report page" createdDate: "${new Date()}" createdTimestamp: ${new Date().getTime()}}) {id}}`
         })
 
         fetch('https://5kp24nzqz5.execute-api.ap-southeast-2.amazonaws.com/test/graphql/zeller-phishing', {
