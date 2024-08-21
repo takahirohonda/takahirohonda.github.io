@@ -4,161 +4,72 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>MDH GitHub Page</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="static/style/front-page.css" />
+    <title>My GitHub Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <div class="container-fluid header-container">
-      <h1 class="header-title">
-        &#127752; MyDataHack GitHub Page
-        <span style="display: inline-block; transform: rotateY(180deg)"
-          >&#127752;</span
-        >
+  <body class="bg-slate-900 text-white">
+    <main class="container mx-auto bg-slate-900 p-[24px]">
+      <h1 class="text-[36px] md:text-[48px] text-emerald-100 mb-[24px]">
+        Project List
       </h1>
-    </div>
-    <div class="body-container">
-      <div class="container portofolio-container">
-        <div class="row">
-          <div class="col-12 portofolio-header">
-            <h2 class="permanent-marker-font">Related Websites</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="site-info">
-              <h4 class="permanent-marker-font">
-                <a href="https://www.mydatahack.com/" target="_blank"
-                  >mydatahack.com</a
-                >
-              </h4>
-              <p>
-                MyDataHack blog site for Data Engineers, Data Scientists,
-                Software Engineers and Cloud Native Developers.
-              </p>
-            </div>
-            <iframe
-              src="https://www.mydatahack.com/"
-              height="400"
-              width="350"
-              scrolling="no"
-            ></iframe>
-          </div>
-          <div class="col-md-4">
-            <div class="site-info">
-              <h4 class="permanent-marker-font">
-                <a href="https://mydatahack.github.io/sakura/" target="_blank"
-                  >Sakura Translation</a
-                >
-              </h4>
-              <p>
-                Fictitous translation business website. Front-end development
-                example with HTML, CSS, JavaScript, TypeScript, Gulp, Karma.
-                Source code is
-                <a
-                  href="https://github.com/mydatahack/sakura-translation-frontend-example"
-                  target="_blank"
-                  >here</a
-                >.
-              </p>
-            </div>
-            <iframe
-              src="https://mydatahack.github.io/sakura/"
-              height="400"
-              width="350"
-              scrolling="no"
-            ></iframe>
-          </div>
-          <div class="col-md-4">
-            <div class="site-info">
-              <h4 class="permanent-marker-font">
-                <a
-                  href="https://mydatahack.github.io/star-wars/"
-                  target="_blank"
-                  >Star Wars Ultimate Search</a
-                >
-              </h4>
-              <p>
-                Star Wars ultimate search Preact 8 app powered by
-                <a href="https://swapi.co/" target="_blank">the Star Wars API</a
-                >. Source code is
-                <a
-                  href="https://github.com/mydatahack/star-wars-ultimate-search-preact"
-                  target="_blank"
-                  >here</a
-                >.
-              </p>
-            </div>
-            <iframe
-              src="https://mydatahack.github.io/star-wars/"
-              height="400"
-              width="350"
-              scrolling="no"
-            ></iframe>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="site-info">
-              <h4 class="permanent-marker-font">
-                <a
-                  href="https://mydatahack.github.io/sitecore-exam-prep/"
-                  target="_blank"
-                  >Sitecore Quiz</a
-                >
-              </h4>
-              <p>
-                Quiz app for Sitecore 9 Certified Platform Associate Developer
-                Exam preparation with Preact X and TypeScript. Source code is
-                <a
-                  href="https://github.com/mydatahack/sitecore-certification-exam-prep-typescript-preact"
-                  target="_blank"
-                  >here</a
-                >. For Android, available from Google Play
-                <a
-                  href="https://play.google.com/store/apps/details?id=com.mdhsitecorequiz.sitecorecertificationexamquiz"
-                  target="_blank"
-                  >here</a
-                >.
-              </p>
-            </div>
-            <iframe
-              src="https://mydatahack.github.io/sitecore-exam-prep/"
-              height="400"
-              width="350"
-              scrolling="no"
-            ></iframe>
-          </div>
-          <div class="col-md-4"></div>
-          <div class="col-md-4"></div>
-        </div>
-      </div>
-    </div>
-    <script>
-      window.addEventListener("DOMContentLoaded", function () {
-        adjustInfoHight();
-      });
-
-      function adjustInfoHight() {
-        var elemList = document.querySelectorAll(".site-info");
-        console.log(elemList);
-        var heightArray = [];
-        for (var elem of elemList) {
-          heightArray.push(elem.offsetHeight);
-          // console.log(elem.offsetHeight);
-        }
-        // console.log('max height is: ' + Math.max(...heightArray));
-        var maxHeight = Math.max(...heightArray);
-        for (var elem of elemList) {
-          elem.style.height = maxHeight + "px";
-          // console.log(elem.style);
-        }
-      }
-    </script>
+      <ul class="list-decimal mx-[36px] text-lg md:text-2xl">
+        <li>
+          <a
+            class="hover:underline hover:text-rose-300 active:text-rose-300"
+            href="/portfolio"
+            >Creative writing, poetry with Jekyll</a
+          >
+        </li>
+        <li>
+          <a
+            class="hover:underline hover:text-rose-300 active:text-rose-300"
+            href="/tk"
+            >Personal blog with Docusaurus</a
+          >
+        </li>
+        <li>
+          <a
+            class="hover:underline hover:text-rose-300 active:text-rose-300"
+            href="/tonejs-sampler-1/"
+            >Tone.js Sampler</a
+          >
+        </li>
+        <li>
+          <a
+            class="hover:underline hover:text-rose-300 active:text-rose-300"
+            href="/sitecore-exam-prep/"
+            >Sitecore Exam Prep app</a
+          >
+        </li>
+        <li>
+          <a
+            class="hover:underline hover:text-rose-300 active:text-rose-300"
+            href="/mtd"
+            >PWA to do app</a
+          >
+        </li>
+        <li>
+          <a
+            class="hover:underline hover:text-rose-300 active:text-rose-300"
+            href="learn-german"
+            >Learn German App</a
+          >
+        </li>
+        <li>
+          <a
+            class="hover:underline hover:text-rose-300 active:text-rose-300"
+            href="/mdh-blog-dev"
+            >Vocab card, current reading, references with Gatsby</a
+          >
+        </li>
+        <li>
+          <a
+            class="hover:underline hover:text-rose-300 active:text-rose-300"
+            href="/mdh-blog-components"
+            >Design system with storybook for mdh-blog</a
+          >
+        </li>
+      </ul>
+    </main>
   </body>
 </html>
