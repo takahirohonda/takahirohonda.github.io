@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Takahiro Honda Blog</title>
+        <link>https://takahirohonda.github.io/tk-blog/second-blog</link>
+        <description>Takahiro Honda Blog</description>
+        <lastBuildDate>Mon, 06 May 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[My Blog]]></title>
+            <link>https://takahirohonda.github.io/tk-blog/second-blog/my-blog</link>
+            <guid>https://takahirohonda.github.io/tk-blog/second-blog/my-blog</guid>
+            <pubDate>Mon, 06 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></description>
+            <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
+            <category>hola</category>
+            <category>docusaurus</category>
+        </item>
+        <item>
+            <title><![CDATA[Hello World]]></title>
+            <link>https://takahirohonda.github.io/tk-blog/second-blog/welcome</link>
+            <guid>https://takahirohonda.github.io/tk-blog/second-blog/welcome</guid>
+            <pubDate>Sun, 05 May 2024 00:00:00 GMT</pubDate>
+            <category>hola</category>
+            <category>docusaurus</category>
+        </item>
+    </channel>
+</rss>

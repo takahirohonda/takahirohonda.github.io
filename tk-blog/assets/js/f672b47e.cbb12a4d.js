@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus_portfolio_site=self.webpackChunkdocusaurus_portfolio_site||[]).push([[2639],{2882:o=>{o.exports=JSON.parse('{"blogBasePath":"/tk-blog/blog","blogTitle":"Blog"}')}}]);

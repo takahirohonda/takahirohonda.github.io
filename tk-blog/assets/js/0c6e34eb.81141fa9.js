@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus_portfolio_site=self.webpackChunkdocusaurus_portfolio_site||[]).push([[8151],{8122:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"My Blog","permalink":"/tk-blog/second-blog/my-blog","unlisted":false},{"title":"Hello World","permalink":"/tk-blog/second-blog/welcome","unlisted":false}]}')}}]);
