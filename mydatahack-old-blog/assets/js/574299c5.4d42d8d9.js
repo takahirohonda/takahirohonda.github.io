@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmydatahack_blog_site=self.webpackChunkmydatahack_blog_site||[]).push([[7055],{83776:e=>{e.exports=JSON.parse('{"tags":[{"label":"web technologies","permalink":"/mydatahack-old-blog/web-technologies/tags/web-technologies","count":1}]}')}}]);

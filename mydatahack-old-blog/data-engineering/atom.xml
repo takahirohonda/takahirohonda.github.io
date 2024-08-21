@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://mydatahack.com/data-engineering</id>
+    <id>https://takahirohonda.github.io/mydatahack-old-blog/data-engineering</id>
     <title>MyDatahack Blog</title>
     <updated>2023-06-08T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://mydatahack.com/data-engineering"/>
+    <link rel="alternate" href="https://takahirohonda.github.io/mydatahack-old-blog/data-engineering"/>
     <subtitle>MyDatahack Blog</subtitle>
-    <icon>https://mydatahack.com/img/icon-circle.png</icon>
+    <icon>https://takahirohonda.github.io/mydatahack-old-blog/img/icon-circle.png</icon>
     <entry>
         <title type="html"><![CDATA[Data Engineering Blogs List]]></title>
-        <id>https://mydatahack.com/data-engineering/data-engineering</id>
-        <link href="https://mydatahack.com/data-engineering/data-engineering"/>
+        <id>https://takahirohonda.github.io/mydatahack-old-blog/data-engineering/data-engineering</id>
+        <link href="https://takahirohonda.github.io/mydatahack-old-blog/data-engineering/data-engineering"/>
         <updated>2023-06-08T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[List of Topics]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="list-of-topics">List of Topics<a href="https://mydatahack.com/data-engineering/data-engineering#list-of-topics" class="hash-link" aria-label="Direct link to List of Topics" title="Direct link to List of Topics">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="etl">ETL<a href="https://mydatahack.com/data-engineering/data-engineering#etl" class="hash-link" aria-label="Direct link to ETL" title="Direct link to ETL">​</a></h3>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="list-of-topics">List of Topics<a href="https://takahirohonda.github.io/mydatahack-old-blog/data-engineering/data-engineering#list-of-topics" class="hash-link" aria-label="Direct link to List of Topics" title="Direct link to List of Topics">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="etl">ETL<a href="https://takahirohonda.github.io/mydatahack-old-blog/data-engineering/data-engineering#etl" class="hash-link" aria-label="Direct link to ETL" title="Direct link to ETL">​</a></h3>
 <ul>
 <li>
-<p><a href="https://mydatahack.com/docs/category/informatica">Informatica</a></p>
+<p><a href="https://takahirohonda.github.io/mydatahack-old-blog/docs/category/informatica">Informatica</a></p>
 </li>
 <li>
-<p><a href="https://mydatahack.com/docs/category/datastage">DataStage</a></p>
+<p><a href="https://takahirohonda.github.io/mydatahack-old-blog/docs/category/datastage">DataStage</a></p>
 </li>
 <li>
-<p><a href="https://mydatahack.com/docs/category/talend">Talend</a></p>
+<p><a href="https://takahirohonda.github.io/mydatahack-old-blog/docs/category/talend">Talend</a></p>
 </li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="data-ingestion">Data Ingestion<a href="https://mydatahack.com/data-engineering/data-engineering#data-ingestion" class="hash-link" aria-label="Direct link to Data Ingestion" title="Direct link to Data Ingestion">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="data-ingestion">Data Ingestion<a href="https://takahirohonda.github.io/mydatahack-old-blog/data-engineering/data-engineering#data-ingestion" class="hash-link" aria-label="Direct link to Data Ingestion" title="Direct link to Data Ingestion">​</a></h3>
 <ul>
-<li><a href="https://mydatahack.com/docs/category/data-ingestion">Data Ingestion</a></li>
+<li><a href="https://mydatahack-old-blog/docs/category/data-ingestion">Data Ingestion</a></li>
 </ul>]]></content>
         <category label="data engineering" term="data engineering"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Sending XML Payload and Converting XML Response to JSON with Node.js]]></title>
-        <id>https://mydatahack.com/data-engineering/data-engineering/data-ingestion/Node-xml-to-json</id>
-        <link href="https://mydatahack.com/data-engineering/data-engineering/data-ingestion/Node-xml-to-json"/>
+        <id>https://takahirohonda.github.io/mydatahack-old-blog/data-engineering/data-engineering/data-ingestion/Node-xml-to-json</id>
+        <link href="https://takahirohonda.github.io/mydatahack-old-blog/data-engineering/data-engineering/data-ingestion/Node-xml-to-json"/>
         <updated>2020-04-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Here is the quick Node.js example of interacting with a rest API endpoint that takes XML string as a payload and return with XML string as response. Once we get the response, we will convert it to a JSON object.]]></summary>
         <content type="html"><![CDATA[<p>Here is the quick Node.js example of interacting with a rest API endpoint that takes XML string as a payload and return with XML string as response. Once we get the response, we will convert it to a JSON object.</p>
@@ -51,8 +51,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Sending XML Payload and Converting XML Response to JSON with Python]]></title>
-        <id>https://mydatahack.com/data-engineering/data-engineering/data-ingestion/python-xml-to-json</id>
-        <link href="https://mydatahack.com/data-engineering/data-engineering/data-ingestion/python-xml-to-json"/>
+        <id>https://takahirohonda.github.io/mydatahack-old-blog/data-engineering/data-engineering/data-ingestion/python-xml-to-json</id>
+        <link href="https://takahirohonda.github.io/mydatahack-old-blog/data-engineering/data-engineering/data-ingestion/python-xml-to-json"/>
         <updated>2020-04-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[If you need to interact with a REST endpoint that takes a XML string as a payload and returns another XML string as a response, this is the quick guide if you want to use Python.]]></summary>
         <content type="html"><![CDATA[<p>If you need to interact with a REST endpoint that takes a XML string as a payload and returns another XML string as a response, this is the quick guide if you want to use Python.</p>
@@ -69,8 +69,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Downloading All Public GitHub Gist Files]]></title>
-        <id>https://mydatahack.com/data-engineering/data-engineering/data-ingestion/download-github-gist</id>
-        <link href="https://mydatahack.com/data-engineering/data-engineering/data-ingestion/download-github-gist"/>
+        <id>https://takahirohonda.github.io/mydatahack-old-blog/data-engineering/data-engineering/data-ingestion/download-github-gist</id>
+        <link href="https://takahirohonda.github.io/mydatahack-old-blog/data-engineering/data-engineering/data-ingestion/download-github-gist"/>
         <updated>2019-07-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[I used to use plug-ins to render code blocks for this blog. Yesterday, I decided to move all the code into GitHub Gist and inject them from there.  Using a WordPress plugin to render code blocks can be problematic when update happens. Plugins might not be up to date. It can break the site as most of the plugins are server-site rendering. That is exactly what happened to me with WordPress 5.2 update.]]></summary>
         <content type="html"><![CDATA[<p>I used to use plug-ins to render code blocks for this blog. Yesterday, I decided to move all the code into GitHub Gist and inject them from there.  Using a WordPress plugin to render code blocks can be problematic when update happens. Plugins might not be up to date. It can break the site as most of the plugins are server-site rendering. That is exactly what happened to me with WordPress 5.2 update.</p>
@@ -86,8 +86,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Loading Data Frame to Relational Database with R]]></title>
-        <id>https://mydatahack.com/data-engineering/data-engineering/data-ingestion/loading-data-frame-to-relational-database-with-r</id>
-        <link href="https://mydatahack.com/data-engineering/data-engineering/data-ingestion/loading-data-frame-to-relational-database-with-r"/>
+        <id>https://takahirohonda.github.io/mydatahack-old-blog/data-engineering/data-engineering/data-ingestion/loading-data-frame-to-relational-database-with-r</id>
+        <link href="https://takahirohonda.github.io/mydatahack-old-blog/data-engineering/data-engineering/data-ingestion/loading-data-frame-to-relational-database-with-r"/>
         <updated>2019-06-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Once you create a data frame with R, you may need to load it to a relational database for data persistence. You might have a data transformation batch job written in R and want to load database in a certain frequency.]]></summary>
         <content type="html"><![CDATA[<p>Once you create a data frame with R, you may need to load it to a relational database for data persistence. You might have a data transformation batch job written in R and want to load database in a certain frequency.</p>
@@ -118,8 +118,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Exporting LaunchDarkly Flag List into a CSV File with Python]]></title>
-        <id>https://mydatahack.com/data-engineering/data-engineering/data-ingestion/export-launch-darkly-flags</id>
-        <link href="https://mydatahack.com/data-engineering/data-engineering/data-ingestion/export-launch-darkly-flags"/>
+        <id>https://takahirohonda.github.io/mydatahack-old-blog/data-engineering/data-engineering/data-ingestion/export-launch-darkly-flags</id>
+        <link href="https://takahirohonda.github.io/mydatahack-old-blog/data-engineering/data-engineering/data-ingestion/export-launch-darkly-flags"/>
         <updated>2019-06-12T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[At the moment, LaunchDarkly does not have functionality to export a list of flags as csv or excel file. This can change very near future (it may already have the functionality by the time you are reading this post). The workaround is to use API to ingest the data.]]></summary>
         <content type="html"><![CDATA[<p>At the moment, LaunchDarkly does not have functionality to export a list of flags as csv or excel file. This can change very near future (it may already have the functionality by the time you are reading this post). The workaround is to use API to ingest the data. </p>

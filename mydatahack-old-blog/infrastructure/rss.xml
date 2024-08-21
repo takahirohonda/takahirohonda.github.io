@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>MyDatahack Blog</title>
-        <link>https://mydatahack.com/infrastructure</link>
+        <link>https://takahirohonda.github.io/mydatahack-old-blog/infrastructure</link>
         <description>MyDatahack Blog</description>
         <lastBuildDate>Sun, 05 May 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,26 +10,26 @@
         <language>en</language>
         <item>
             <title><![CDATA[Infrastructure Blog List]]></title>
-            <link>https://mydatahack.com/infrastructure/welcome</link>
-            <guid>https://mydatahack.com/infrastructure/welcome</guid>
+            <link>https://takahirohonda.github.io/mydatahack-old-blog/infrastructure/welcome</link>
+            <guid>https://takahirohonda.github.io/mydatahack-old-blog/infrastructure/welcome</guid>
             <pubDate>Sun, 05 May 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Table of Content]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="table-of-content">Table of Content<a href="https://mydatahack.com/infrastructure/welcome#table-of-content" class="hash-link" aria-label="Direct link to Table of Content" title="Direct link to Table of Content">​</a></h2>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="table-of-content">Table of Content<a href="https://takahirohonda.github.io/mydatahack-old-blog/infrastructure/welcome#table-of-content" class="hash-link" aria-label="Direct link to Table of Content" title="Direct link to Table of Content">​</a></h2>
 <ul>
 <li>
-<p><a href="https://mydatahack.com/docs/category/aws">AWS</a></p>
+<p><a href="https://takahirohonda.github.io/mydatahack-old-blog/docs/category/aws">AWS</a></p>
 </li>
 <li>
-<p><a href="https://mydatahack.com/docs/category/dba">DBA</a></p>
+<p><a href="https://takahirohonda.github.io/mydatahack-old-blog/docs/category/dba">DBA</a></p>
 </li>
 <li>
-<p><a href="https://mydatahack.com/docs/category/git">Git</a></p>
+<p><a href="https://takahirohonda.github.io/mydatahack-old-blog/docs/category/git">Git</a></p>
 </li>
 <li>
-<p><a href="https://mydatahack.com/docs/category/miscellaneous">Miscellaneous</a></p>
+<p><a href="https://takahirohonda.github.io/mydatahack-old-blog/docs/category/miscellaneous">Miscellaneous</a></p>
 </li>
 <li>
-<p><a href="https://mydatahack.com/docs/category/opinions">Opinions</a></p>
+<p><a href="https://takahirohonda.github.io/mydatahack-old-blog/docs/category/opinions">Opinions</a></p>
 </li>
 </ul>]]></content:encoded>
             <category>Infrastructure</category>

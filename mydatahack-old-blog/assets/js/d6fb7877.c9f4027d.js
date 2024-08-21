@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmydatahack_blog_site=self.webpackChunkmydatahack_blog_site||[]).push([[4238],{59715:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Infrastructure Blog List","permalink":"/infrastructure/welcome","unlisted":false}]}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmydatahack_blog_site=self.webpackChunkmydatahack_blog_site||[]).push([[8550],{44040:a=>{a.exports=JSON.parse('{"blogBasePath":"/mydatahack-old-blog/infrastructure","blogTitle":"Blog"}')}}]);
