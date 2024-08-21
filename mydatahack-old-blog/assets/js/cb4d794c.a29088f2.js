@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmydatahack_blog_site=self.webpackChunkmydatahack_blog_site||[]).push([[2339],{47132:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/web-technologies","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

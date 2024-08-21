@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmydatahack_blog_site=self.webpackChunkmydatahack_blog_site||[]).push([[7915],{94531:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/infrastructure","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

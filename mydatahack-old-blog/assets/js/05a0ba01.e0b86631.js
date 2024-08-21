@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmydatahack_blog_site=self.webpackChunkmydatahack_blog_site||[]).push([[6503],{83267:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Web Technologies Blog List","permalink":"/web-technologies/welcome","unlisted":false}]}')}}]);

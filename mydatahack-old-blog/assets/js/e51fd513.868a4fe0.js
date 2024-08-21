@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmydatahack_blog_site=self.webpackChunkmydatahack_blog_site||[]).push([[401],{64249:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/data-science/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":12,"previousPage":"/data-science","blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
