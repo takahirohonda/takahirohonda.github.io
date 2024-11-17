@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus_portfolio_site=self.webpackChunkdocusaurus_portfolio_site||[]).push([[2052],{1462:s=>{s.exports=JSON.parse('{"tags":[{"label":"hola","permalink":"/tk-blog/my-japanese-blogs/tags/hola","count":2},{"label":"docusaurus","permalink":"/tk-blog/my-japanese-blogs/tags/docusaurus","count":2}]}')}}]);

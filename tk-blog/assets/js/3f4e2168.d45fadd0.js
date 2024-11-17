@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus_portfolio_site=self.webpackChunkdocusaurus_portfolio_site||[]).push([[3785],{6395:o=>{o.exports=JSON.parse('{"metadata":{"permalink":"/tk-blog/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
