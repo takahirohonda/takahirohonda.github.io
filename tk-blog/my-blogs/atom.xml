@@ -2,11 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://takahirohonda.github.io/tk-blog/my-blogs</id>
     <title>Art is the sublimation of shitty experiences. Blog</title>
-    <updated>2024-07-07T00:00:00.000Z</updated>
+    <updated>2024-12-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://takahirohonda.github.io/tk-blog/my-blogs"/>
     <subtitle>Art is the sublimation of shitty experiences. Blog</subtitle>
     <icon>https://takahirohonda.github.io/tk-blog/img/icon-circle.png</icon>
+    <entry>
+        <title type="html"><![CDATA[What's the difference between a wallet and an account?]]></title>
+        <id>https://takahirohonda.github.io/tk-blog/my-blogs/cypto-wallet-account</id>
+        <link href="https://takahirohonda.github.io/tk-blog/my-blogs/cypto-wallet-account"/>
+        <updated>2024-12-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This post is to provide quick definitions of a wallet and an account in crypto.]]></summary>
+        <content type="html"><![CDATA[<p>This post is to provide quick definitions of a wallet and an account in crypto.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wallet">Wallet<a href="https://takahirohonda.github.io/tk-blog/my-blogs/cypto-wallet-account#wallet" class="hash-link" aria-label="Direct link to Wallet" title="Direct link to Wallet">​</a></h2>
+<p>A wallet is a client (a piece of software) that manages accounts. It's a tool to provide your identity in web3, just ike a passport. It can be considered as a decentralised identity management tool.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="account">Account<a href="https://takahirohonda.github.io/tk-blog/my-blogs/cypto-wallet-account#account" class="hash-link" aria-label="Direct link to Account" title="Direct link to Account">​</a></h2>
+<p>An account is a public-private key pair derived from your Secret Recovery Phrase (SRP). The address is the public key.</p>
+<p><a href="https://support.metamask.io/managing-my-wallet/using-metamask/whats-the-difference-between-a-wallet-and-an-account-/" target="_blank" rel="noopener noreferrer">What's the difference between a wallet and an account?</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="recovery-phrase">Recovery phrase<a href="https://takahirohonda.github.io/tk-blog/my-blogs/cypto-wallet-account#recovery-phrase" class="hash-link" aria-label="Direct link to Recovery phrase" title="Direct link to Recovery phrase">​</a></h2>
+<p>A recovery phrase is to access the wallet and all the private keys stored in the wallet. As long as your recovery phase is the same, the calculation of the private keys will always have the same result.</p>]]></content>
+        <author>
+            <name>Taka</name>
+            <uri>https://github.com/takahirohonda</uri>
+        </author>
+        <category label="crypto" term="crypto"/>
+        <category label="blockchain" term="blockchain"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Wir Suchen Dich]]></title>
         <id>https://takahirohonda.github.io/tk-blog/my-blogs/wir-suchen-dich</id>
@@ -25,8 +46,8 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="another-random-thing-from-germany">another random thing from Germany...<a href="https://takahirohonda.github.io/tk-blog/my-blogs/wir-suchen-dich#another-random-thing-from-germany" class="hash-link" aria-label="Direct link to another random thing from Germany..." title="Direct link to another random thing from Germany...">​</a></h2>
 <p><img decoding="async" loading="lazy" alt="standard-blog-self dick sucking statue" src="https://takahirohonda.github.io/tk-blog/assets/images/self-dick-sucking-statue-2656552d5f981ea3043c3bf8b72b5c9e.jpg" width="1080" height="1296" class="img_ev3q"></p>]]></content>
         <author>
-            <name>Gao Wei</name>
-            <uri>https://github.com/wgao19</uri>
+            <name>Taka</name>
+            <uri>https://github.com/takahirohonda</uri>
         </author>
         <category label="german" term="german"/>
         <category label="random" term="random"/>

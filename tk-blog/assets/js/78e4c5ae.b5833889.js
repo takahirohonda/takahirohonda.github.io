@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus_portfolio_site=self.webpackChunkdocusaurus_portfolio_site||[]).push([[2689],{7162:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Wir Suchen Dich","permalink":"/tk-blog/my-blogs/wir-suchen-dich","unlisted":false,"date":"2024-07-07T00:00:00.000Z"}]}')}}]);

@@ -4,10 +4,27 @@
         <title>Art is the sublimation of shitty experiences. Blog</title>
         <link>https://takahirohonda.github.io/tk-blog/my-blogs</link>
         <description>Art is the sublimation of shitty experiences. Blog</description>
-        <lastBuildDate>Sun, 07 Jul 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 18 Dec 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[What's the difference between a wallet and an account?]]></title>
+            <link>https://takahirohonda.github.io/tk-blog/my-blogs/cypto-wallet-account</link>
+            <guid>https://takahirohonda.github.io/tk-blog/my-blogs/cypto-wallet-account</guid>
+            <pubDate>Wed, 18 Dec 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[This post is to provide quick definitions of a wallet and an account in crypto.]]></description>
+            <content:encoded><![CDATA[<p>This post is to provide quick definitions of a wallet and an account in crypto.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wallet">Wallet<a href="https://takahirohonda.github.io/tk-blog/my-blogs/cypto-wallet-account#wallet" class="hash-link" aria-label="Direct link to Wallet" title="Direct link to Wallet">​</a></h2>
+<p>A wallet is a client (a piece of software) that manages accounts. It's a tool to provide your identity in web3, just ike a passport. It can be considered as a decentralised identity management tool.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="account">Account<a href="https://takahirohonda.github.io/tk-blog/my-blogs/cypto-wallet-account#account" class="hash-link" aria-label="Direct link to Account" title="Direct link to Account">​</a></h2>
+<p>An account is a public-private key pair derived from your Secret Recovery Phrase (SRP). The address is the public key.</p>
+<p><a href="https://support.metamask.io/managing-my-wallet/using-metamask/whats-the-difference-between-a-wallet-and-an-account-/" target="_blank" rel="noopener noreferrer">What's the difference between a wallet and an account?</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="recovery-phrase">Recovery phrase<a href="https://takahirohonda.github.io/tk-blog/my-blogs/cypto-wallet-account#recovery-phrase" class="hash-link" aria-label="Direct link to Recovery phrase" title="Direct link to Recovery phrase">​</a></h2>
+<p>A recovery phrase is to access the wallet and all the private keys stored in the wallet. As long as your recovery phase is the same, the calculation of the private keys will always have the same result.</p>]]></content:encoded>
+            <category>crypto</category>
+            <category>blockchain</category>
+        </item>
         <item>
             <title><![CDATA[Wir Suchen Dich]]></title>
             <link>https://takahirohonda.github.io/tk-blog/my-blogs/wir-suchen-dich</link>
