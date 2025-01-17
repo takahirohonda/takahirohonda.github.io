@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus_portfolio_site=self.webpackChunkdocusaurus_portfolio_site||[]).push([[2604],{1943:s=>{s.exports=JSON.parse('{"blogBasePath":"/my-japanese-blogs","blogTitle":"Blog","authorsListPath":"/my-japanese-blogs/authors"}')}}]);
