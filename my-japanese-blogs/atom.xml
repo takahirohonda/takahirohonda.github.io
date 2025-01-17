@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://takahirohonda.github.io/my-japanese-blogs</id>
+    <title>Art is the sublimation of shitty experiences. Blog</title>
+    <updated>2024-05-06T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://takahirohonda.github.io/my-japanese-blogs"/>
+    <subtitle>Art is the sublimation of shitty experiences. Blog</subtitle>
+    <icon>https://takahirohonda.github.io/img/icon-circle.png</icon>
+    <entry>
+        <title type="html"><![CDATA[My Blog]]></title>
+        <id>https://takahirohonda.github.io/my-japanese-blogs/my-blog</id>
+        <link href="https://takahirohonda.github.io/my-japanese-blogs/my-blog"/>
+        <updated>2024-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
+        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
+        <category label="hola" term="hola"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello World]]></title>
+        <id>https://takahirohonda.github.io/my-japanese-blogs/welcome</id>
+        <link href="https://takahirohonda.github.io/my-japanese-blogs/welcome"/>
+        <updated>2024-05-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Coming soon...]]></summary>
+        <content type="html"><![CDATA[<p>Coming soon...</p>]]></content>
+        <category label="hola" term="hola"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+</feed>

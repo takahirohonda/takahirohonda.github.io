@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus_portfolio_site=self.webpackChunkdocusaurus_portfolio_site||[]).push([[8977],{431:t=>{t.exports=JSON.parse('{"authors":[{"name":"Taka Honda","title":"Explorer of the unknown....","url":"https://github.com/takahirohonda","imageURL":"https://avatars.githubusercontent.com/u/43569574?v=4","key":"endi","page":null,"count":0}]}')}}]);

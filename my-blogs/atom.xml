@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://takahirohonda.github.io/my-blogs</id>
+    <title>Art is the sublimation of shitty experiences. Blog</title>
+    <updated>2025-12-01T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://takahirohonda.github.io/my-blogs"/>
+    <subtitle>Art is the sublimation of shitty experiences. Blog</subtitle>
+    <icon>https://takahirohonda.github.io/img/icon-circle.png</icon>
+    <entry>
+        <title type="html"><![CDATA[2025 Week 2 Rating]]></title>
+        <id>https://takahirohonda.github.io/my-blogs/2025-week2-rant</id>
+        <link href="https://takahirohonda.github.io/my-blogs/2025-week2-rant"/>
+        <updated>2025-12-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2 weeks flew by since the new year's day. This week's ranting.]]></summary>
+        <content type="html"><![CDATA[<p>2 weeks flew by since the new year's day. This week's ranting.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ai-progress-and-its-impact-on-my-job">AI progress and its impact on my job<a href="https://takahirohonda.github.io/my-blogs/2025-week2-rant#ai-progress-and-its-impact-on-my-job" class="hash-link" aria-label="Direct link to AI progress and its impact on my job" title="Direct link to AI progress and its impact on my job">​</a></h2>
+<p>My assumption is that AI will not take over software engineering jobs for any foreseeable future although it will help us more. I should be safe although I would like to buy an anti-AI income protection insurance, just in case I loose my job.</p>
+<p>Someone in the AI industry - I can't recall who - once said AI would start replacing roles that are close to it. Because AI is created by programming and it's relatively self-contained, it will be the first one to go. That was the logic. It made sense. From my experience of using Github Copilot, I feel like it's a long way from AI from replacing us, software engineers. But reading an article about Salesforce increased developer productivity by 30% and won't hire any new devs for 2025 (see <a href="https://www.salesforceben.com/salesforce-will-hire-no-more-software-engineers-in-2025-says-marc-benioff/" target="_blank" rel="noopener noreferrer">article</a>) and others discussing AI progressing stealthily, investing all my energy into programming might not a sure bet.</p>
+<p>Skill investment, in many ways, is like financial investment—diversification is key. Specialisation at the early stage and then move towards diversification. For a software engineer, we should focus on our skills in whatever the field we are specialised in and then start acquiring more managerial skills later when we move up the corporate ladder. I digress, though.</p>
+<p>My point is that it might help for me not to focus too much on programming and think what skills I should be acquiring when AI does take over our jobs. At the same time, it's the best time for us to build impactful AI-driven applications. So among all the computer things I'm interested, deep-diving into building AI-driven apps might be more impactful than ,say, learning to build an operating system using C and Assembly - a topic I've been vaguely curious about.</p>
+<p>Building AI agents getting a lot of publicity lately. As my job is to build a traditional website for a financial company, I'm not exposed to AI stuff. Even if I don't build a full application, reading about a few articles and go a little coding project that uses AI might be fun.</p>
+<p>(12/01/2025)</p>]]></content>
+        <author>
+            <name>Taka</name>
+            <uri>https://github.com/takahirohonda</uri>
+        </author>
+        <category label="AI" term="AI"/>
+        <category label="ranting" term="ranting"/>
+        <category label="hot take" term="hot take"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What's the difference between a wallet and an account?]]></title>
+        <id>https://takahirohonda.github.io/my-blogs/cypto-wallet-account</id>
+        <link href="https://takahirohonda.github.io/my-blogs/cypto-wallet-account"/>
+        <updated>2024-12-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This post is to provide quick definitions of a wallet and an account in crypto.]]></summary>
+        <content type="html"><![CDATA[<p>This post is to provide quick definitions of a wallet and an account in crypto.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wallet">Wallet<a href="https://takahirohonda.github.io/my-blogs/cypto-wallet-account#wallet" class="hash-link" aria-label="Direct link to Wallet" title="Direct link to Wallet">​</a></h2>
+<p>A wallet is a client (a piece of software) that manages accounts. It's a tool to provide your identity in web3, just ike a passport. It can be considered as a decentralised identity management tool.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="account">Account<a href="https://takahirohonda.github.io/my-blogs/cypto-wallet-account#account" class="hash-link" aria-label="Direct link to Account" title="Direct link to Account">​</a></h2>
+<p>An account is a public-private key pair derived from your Secret Recovery Phrase (SRP). The address is the public key.</p>
+<p><a href="https://support.metamask.io/managing-my-wallet/using-metamask/whats-the-difference-between-a-wallet-and-an-account-/" target="_blank" rel="noopener noreferrer">What's the difference between a wallet and an account?</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="recovery-phrase">Recovery phrase<a href="https://takahirohonda.github.io/my-blogs/cypto-wallet-account#recovery-phrase" class="hash-link" aria-label="Direct link to Recovery phrase" title="Direct link to Recovery phrase">​</a></h2>
+<p>A recovery phrase is to access the wallet and all the private keys stored in the wallet. As long as your recovery phase is the same, the calculation of the private keys will always have the same result.</p>]]></content>
+        <author>
+            <name>Taka</name>
+            <uri>https://github.com/takahirohonda</uri>
+        </author>
+        <category label="crypto" term="crypto"/>
+        <category label="blockchain" term="blockchain"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wir Suchen Dich]]></title>
+        <id>https://takahirohonda.github.io/my-blogs/wir-suchen-dich</id>
+        <link href="https://takahirohonda.github.io/my-blogs/wir-suchen-dich"/>
+        <updated>2024-07-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<!-- // They don't work 😢]]></summary>
+        <content type="html"><![CDATA[<p>I know, but I found it hilarious...</p>
+<p><img decoding="async" loading="lazy" alt="standard-blog-img1" src="https://takahirohonda.github.io/assets/images/img1-68cb3180f940efc83e075dd8be5718c9.jpeg" width="521" height="589" class="img_ev3q"></p>
+<p>Here are more images from the Internet.</p>
+<p><img decoding="async" loading="lazy" alt="standard-blog-img2" src="https://takahirohonda.github.io/assets/images/img2-558d69cc63a4ab8f36bd62b35a32a9b9.jpeg" width="667" height="460" class="img_ev3q">
+<img decoding="async" loading="lazy" alt="standard-blog-img3" src="https://takahirohonda.github.io/assets/images/img3-559cb6884556d59d288b6f3168a6ce2b.jpeg" width="554" height="554" class="img_ev3q">
+<img decoding="async" loading="lazy" alt="standard-blog-img4" src="https://takahirohonda.github.io/assets/images/img4-82d5edc462b394280e3640d19cddcb85.jpeg" width="327" height="441" class="img_ev3q">
+<img decoding="async" loading="lazy" alt="standard-blog-img6" src="https://takahirohonda.github.io/assets/images/img6-185edd0c28a42fbef603b06648532380.jpeg" width="554" height="554" class="img_ev3q">
+<img decoding="async" loading="lazy" alt="standard-blog-img7" src="https://takahirohonda.github.io/assets/images/img7-f6bef379b75cea29c61139cea4850097.jpeg" width="479" height="641" class="img_ev3q">
+<img decoding="async" loading="lazy" alt="standard-blog-img8" src="https://takahirohonda.github.io/assets/images/img8-858616688bceda9bbfaff08408cfb7f3.jpeg" width="797" height="1600" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="another-random-thing-from-germany">another random thing from Germany...<a href="https://takahirohonda.github.io/my-blogs/wir-suchen-dich#another-random-thing-from-germany" class="hash-link" aria-label="Direct link to another random thing from Germany..." title="Direct link to another random thing from Germany...">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="standard-blog-self dick sucking statue" src="https://takahirohonda.github.io/assets/images/self-dick-sucking-statue-2656552d5f981ea3043c3bf8b72b5c9e.jpg" width="1080" height="1296" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Taka</name>
+            <uri>https://github.com/takahirohonda</uri>
+        </author>
+        <category label="german" term="german"/>
+        <category label="random" term="random"/>
+    </entry>
+</feed>

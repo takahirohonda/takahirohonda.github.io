@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Art is the sublimation of shitty experiences. Blog</title>
+        <link>https://takahirohonda.github.io/my-japanese-blogs</link>
+        <description>Art is the sublimation of shitty experiences. Blog</description>
+        <lastBuildDate>Mon, 06 May 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[My Blog]]></title>
+            <link>https://takahirohonda.github.io/my-japanese-blogs/my-blog</link>
+            <guid>https://takahirohonda.github.io/my-japanese-blogs/my-blog</guid>
+            <pubDate>Mon, 06 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></description>
+            <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
+            <category>hola</category>
+            <category>docusaurus</category>
+        </item>
+        <item>
+            <title><![CDATA[Hello World]]></title>
+            <link>https://takahirohonda.github.io/my-japanese-blogs/welcome</link>
+            <guid>https://takahirohonda.github.io/my-japanese-blogs/welcome</guid>
+            <pubDate>Sun, 05 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Coming soon...]]></description>
+            <content:encoded><![CDATA[<p>Coming soon...</p>]]></content:encoded>
+            <category>hola</category>
+            <category>docusaurus</category>
+        </item>
+    </channel>
+</rss>
