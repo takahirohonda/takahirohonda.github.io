@@ -4,10 +4,28 @@
         <title>Art is the sublimation of shitty experiences. Blog</title>
         <link>https://takahirohonda.github.io/tk-blog/my-blogs</link>
         <description>Art is the sublimation of shitty experiences. Blog</description>
-        <lastBuildDate>Wed, 18 Dec 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 01 Dec 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[2025 Week 2 Rating]]></title>
+            <link>https://takahirohonda.github.io/tk-blog/my-blogs/2025-week2-rant</link>
+            <guid>https://takahirohonda.github.io/tk-blog/my-blogs/2025-week2-rant</guid>
+            <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[2 weeks flew by since the new year's day. This week's ranting.]]></description>
+            <content:encoded><![CDATA[<p>2 weeks flew by since the new year's day. This week's ranting.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ai-progress-and-its-impact-on-my-job">AI progress and its impact on my job<a href="https://takahirohonda.github.io/tk-blog/my-blogs/2025-week2-rant#ai-progress-and-its-impact-on-my-job" class="hash-link" aria-label="Direct link to AI progress and its impact on my job" title="Direct link to AI progress and its impact on my job">​</a></h2>
+<p>My assumption is that AI will not take over software engineering jobs for any foreseeable future although it will help us more. I should be safe although I would like to buy an anti-AI income protection insurance, just in case I loose my job.</p>
+<p>Someone in the AI industry - I can't recall who - once said AI would start replacing roles that are close to it. Because AI is created by programming and it's relatively self-contained, it will be the first one to go. That was the logic. It made sense. From my experience of using Github Copilot, I feel like it's a long way from AI from replacing us, software engineers. But reading an article about Salesforce increased developer productivity by 30% and won't hire any new devs for 2025 (see <a href="https://www.salesforceben.com/salesforce-will-hire-no-more-software-engineers-in-2025-says-marc-benioff/" target="_blank" rel="noopener noreferrer">article</a>) and others discussing AI progressing stealthily, investing all my energy into programming might not a sure bet.</p>
+<p>Skill investment, in many ways, is like financial investment—diversification is key. Specialisation at the early stage and then move towards diversification. For a software engineer, we should focus on our skills in whatever the field we are specialised in and then start acquiring more managerial skills later when we move up the corporate ladder. I digress, though.</p>
+<p>My point is that it might help for me not to focus too much on programming and think what skills I should be acquiring when AI does take over our jobs. At the same time, it's the best time for us to build impactful AI-driven applications. So among all the computer things I'm interested, deep-diving into building AI-driven apps might be more impactful than ,say, learning to build an operating system using C and Assembly - a topic I've been vaguely curious about.</p>
+<p>Building AI agents getting a lot of publicity lately. As my job is to build a traditional website for a financial company, I'm not exposed to AI stuff. Even if I don't build a full application, reading about a few articles and go a little coding project that uses AI might be fun.</p>
+<p>(12/01/2025)</p>]]></content:encoded>
+            <category>AI</category>
+            <category>ranting</category>
+            <category>hot take</category>
+        </item>
         <item>
             <title><![CDATA[What's the difference between a wallet and an account?]]></title>
             <link>https://takahirohonda.github.io/tk-blog/my-blogs/cypto-wallet-account</link>
